@@ -6,7 +6,7 @@ name: .NET
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *' # every 30 minutes
+    - cron: '*/15 * * * *'
 
 jobs:
   run:
@@ -17,8 +17,8 @@ jobs:
       GithubApiToken: ${{secrets.GH_API_TOKEN}}
       GithubUser: Mahdi0024
       GithubRepo: ProxyCollector
-      Timeout: 3000
-      Retries: 4
+      Timeout: 5000
+      Retries: 5
       MaxThreadCount: 24
       ResultFilePath: sub/proxies.txt
       IpInfoApiToken: ${{secrets.IPINFOAPITOKEN}}
