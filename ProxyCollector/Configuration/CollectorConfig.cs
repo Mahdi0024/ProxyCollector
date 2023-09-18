@@ -17,10 +17,6 @@ public class CollectorConfig
     static CollectorConfig()
     {
         Instance = CreateInstance();
-        Console.WriteLine(Instance.GithubApiToken);
-        Console.WriteLine(Instance.GithubApiToken.Length);
-        Console.WriteLine(Instance.ResultFilePath);
-        Console.WriteLine(Instance.IpInfoApiToken);
     }
     private CollectorConfig()
     {
