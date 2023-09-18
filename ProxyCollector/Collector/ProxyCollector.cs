@@ -64,7 +64,7 @@ public class ProxyCollector
         string? sha = null;
         var client = new GitHubClient(new ProductHeaderValue("ProxyCollector"))
         {
-            Credentials = new Credentials(_config.GithubApiToken)
+            Credentials = new Credentials("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")
         };
         try
         {
