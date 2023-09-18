@@ -41,8 +41,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
       
-    - name: Build
-      run: dotnet build --configuration Release --no-restore
-      
     - name: Run
-      run: dotnet Run --configuration Release
+      run: |
+        cd ProxyCollector
+        dotnet Run --configuration Release
