@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "GorazCollectorCli": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "GithubApiToken": "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",
+        "GithubUser": "Mahdi0024",
+        "SingboxPath": "sing-box.exe",
+        "Timeout": "3000",
+        "Retries": "4",
+        "MaxThreadCount": "16",
+        "Sources": "https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/base64/donated",
+        "GithubRepo": "Testing",
+        "ResultFilePath": "idk/testfile2.txt",
+        "IpInfoApiToken": "4726787b276af2"
+      },
+      "hotReloadEnabled": true
+    }
+  }
+}
