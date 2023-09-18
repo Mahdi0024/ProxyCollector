@@ -9,7 +9,7 @@ on:
     - cron: '*/30 * * * *' # every 30 minutes
 
 jobs:
-  build:
+  run:
 
     runs-on: ubuntu-latest
 
@@ -40,8 +40,6 @@ jobs:
         
     - name: Restore dependencies
       run: dotnet restore
-      
+
     - name: Run
-      run: |
-        cd ProxyCollector
-        dotnet Run --configuration Release
+      run: dotnet run --configuration Release
