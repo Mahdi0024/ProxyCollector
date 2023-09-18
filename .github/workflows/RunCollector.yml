@@ -4,6 +4,7 @@
 name: .NET
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '*/30 * * * *' # every 30 minutes
 
