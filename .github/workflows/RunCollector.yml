@@ -42,4 +42,4 @@ jobs:
       run: dotnet restore
 
     - name: Run
-      run: dotnet run --configuration Release
+      run: dotnet run --configuration Release --project ProxyCollector
