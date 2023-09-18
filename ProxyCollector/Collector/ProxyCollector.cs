@@ -25,7 +25,7 @@ public class ProxyCollector
     public async Task StartAsync()
     {
         var profiles = await CollectAllProfiesFromConfigSources();
-        var workingResults = await TestProfiles(profiles);
+        var workingResults = await TestProfiles(profiles.Distinct());
 
         var profCountries = new List<(UrlTestResult TestResult, CountryInfo CountryInfo)>();
         foreach (var result in workingResults)
@@ -88,7 +88,7 @@ public class ProxyCollector
                 new UpdateFileRequest("Updated subscription", results, sha));
         }
     }
-    private async Task<IEnumerable<UrlTestResult>> TestProfiles(List<ProfileItem> profiles)
+    private async Task<IEnumerable<UrlTestResult>> TestProfiles(IEnumerable<ProfileItem> profiles)
     {
         var tester = new ParallelUrlTester(
             new SingBoxWrapper(_config.SingboxPath),
