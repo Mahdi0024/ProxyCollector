@@ -1,12 +1,12 @@
 # This workflow will build a .NET project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
 
-name: .NET
+name: Run ProxyCollector
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/20 * * * *'
 
 jobs:
   run:
@@ -17,9 +17,9 @@ jobs:
       GithubApiToken: ${{secrets.GH_API_TOKEN}}
       GithubUser: Mahdi0024
       GithubRepo: ProxyCollector
-      Timeout: 5000
+      Timeout: 6000
       Retries: 5
-      MaxThreadCount: 24
+      MaxThreadCount: 16
       ResultFilePath: sub/proxies.txt
       IpInfoApiToken: ${{secrets.IPINFOAPITOKEN}}
       SingboxPath: sing-box
