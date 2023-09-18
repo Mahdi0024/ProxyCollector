@@ -15,14 +15,14 @@ jobs:
 
     env:
       GithubApiToken: ${{secrets.GITHUBAPITOKEN}}
-      GithubUser: ${{secrets.GITHUBUSER}}
-      GithubRepo: ${{secrets.GITHUBREPO}}
-      Timeout: ${{secrets.TIMEOUT}}
-      Retries: ${{secrets.RETRIES}}
-      MaxThreadCount: ${{secrets.MAXTHREADCOUNT}}
-      ResultFilePath: ${{secrets.RESULTFILEPATH}}
+      GithubUser: Mahdi0024
+      GithubRepo: ProxyCollector
+      Timeout: 3000
+      Retries: 4
+      MaxThreadCount: 24
+      ResultFilePath: sub/proxies.txt
       IpInfoApiToken: ${{secrets.IPINFOAPITOKEN}}
-      SingboxPath: ${{secrets.SINGBOXPATH}}
+      SingboxPath: sing-box
       Sources: ${{secrets.SOURCES}}
       
     steps:
