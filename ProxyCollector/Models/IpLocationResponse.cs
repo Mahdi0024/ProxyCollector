@@ -15,7 +15,7 @@ public class IpLocationResponse
     [JsonProperty("country_name")]
     public string? CountryName { get; set; }
 
-    [JsonProperty("country_code")]
+    [JsonProperty("country_code2")]
     public string? CountryCode { get; set; }
 
     [JsonProperty("isp")]
