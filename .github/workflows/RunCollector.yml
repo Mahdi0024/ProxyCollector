@@ -39,6 +39,7 @@ jobs:
         https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
         https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
         https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/normal/mix
+        https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix
       
     steps:
     - uses: actions/checkout@v3
