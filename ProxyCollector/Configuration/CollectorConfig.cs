@@ -35,7 +35,7 @@ public class CollectorConfig
             MaxThreadCount = int.Parse(Environment.GetEnvironmentVariable("MaxThreadCount")!),
             Timeout = int.Parse(Environment.GetEnvironmentVariable("Timeout")!),
             Retries = int.Parse(Environment.GetEnvironmentVariable("Retries")!),
-            Sources = Environment.GetEnvironmentVariable("Sources")!.Split(",")
+            Sources = Environment.GetEnvironmentVariable("Sources")!.Split("\n")
         };
     }
 }
