@@ -23,37 +23,37 @@ public sealed class IPToCountryResolver
         //    .Build();
     }
 
-    private void LoadIpToCountryData(string ipToCountryData)
-    {
-        using var reader = new StringReader(ipToCountryData);
-        var countryHelper = new CountryHelper();
+    //private void LoadIpToCountryData(string ipToCountryData)
+    //{
+    //    using var reader = new StringReader(ipToCountryData);
+    //    var countryHelper = new CountryHelper();
 
-        string? line;
-        while ((line = reader.ReadLine()) is not null)
-        {
-            var csvData = line.Split('\t');
+    //    string? line;
+    //    while ((line = reader.ReadLine()) is not null)
+    //    {
+    //        var csvData = line.Split('\t');
 
-            var start = csvData[0];
-            var end = csvData[1];
-            var countryCode = csvData[2];
-            if (countryCode is "None" or "Unknown")
-            {
-                countryCode = "Unknown";
-            };
-            var countryInfo = countryHelper.GetCountryByCode(countryCode);
+    //        var start = csvData[0];
+    //        var end = csvData[1];
+    //        var countryCode = csvData[2];
+    //        if (countryCode is "None" or "Unknown")
+    //        {
+    //            countryCode = "Unknown";
+    //        };
+    //        var countryInfo = countryHelper.GetCountryByCode(countryCode);
 
-            var countryName = countryCode is not "Unknown" ? countryInfo?.CountryName ?? countryCode : "Unknown";
-            var countryFlag = countryInfo?.CountryFlag;
+    //        var countryName = countryCode is not "Unknown" ? countryInfo?.CountryName ?? countryCode : "Unknown";
+    //        var countryFlag = countryInfo?.CountryFlag;
 
-            _ipV4Ranges.Add(new IpRangeInfo
-            {
-                Range = new IpV4Range(IPAddress.Parse(start), IPAddress.Parse(end)),
-                CountryCode = countryCode,
-                CountryName = countryName,
-                CountryFlag = countryFlag
-            });
-        }
-    }
+    //        _ipV4Ranges.Add(new IpRangeInfo
+    //        {
+    //            Range = new IpV4Range(IPAddress.Parse(start), IPAddress.Parse(end)),
+    //            CountryCode = countryCode,
+    //            CountryName = countryName,
+    //            CountryFlag = countryFlag
+    //        });
+    //    }
+    //}
 
     public async ValueTask <CountryInfo> GetCountry(string address,CancellationToken cancellationToken = default)
     {

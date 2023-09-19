@@ -8,6 +8,7 @@ using ProxyCollector.Configuration;
 using ProxyCollector.Services.IpToCountry;
 using ProxyCollector.Properties;
 using ProxyCollector.Models;
+using System.Diagnostics;
 
 namespace ProxyCollector.Collector;
 
