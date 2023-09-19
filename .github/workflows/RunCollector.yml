@@ -15,15 +15,30 @@ jobs:
 
     env:
       GithubApiToken: ${{secrets.GH_API_TOKEN}}
+      IpInfoApiToken: ${{secrets.IPINFOAPITOKEN}}
       GithubUser: Mahdi0024
       GithubRepo: ProxyCollector
-      Timeout: 6000
+      Timeout: 5000
       Retries: 5
       MaxThreadCount: 16
-      ResultFilePath: sub/proxies.txt
-      IpInfoApiToken: ${{secrets.IPINFOAPITOKEN}}
       SingboxPath: sing-box
-      Sources: ${{secrets.SOURCES}}
+      ResultFilePath: sub/proxies.txt
+      Sources: |
+        https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1
+        https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2
+        https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3
+        https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4
+        https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5
+        https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6
+        https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7
+        https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8
+        https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
+        https://raw.githubusercontent.com/freefq/free/master/v2
+        https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
+        https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
+        https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
+        https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+        https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/normal/mix
       
     steps:
     - uses: actions/checkout@v3
