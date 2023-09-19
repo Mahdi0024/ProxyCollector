@@ -18,7 +18,7 @@ jobs:
       IpInfoApiToken: ${{secrets.IPINFOAPITOKEN}}
       GithubUser: Mahdi0024
       GithubRepo: ProxyCollector
-      Timeout: 6000
+      Timeout: 8000
       Retries: 5
       MaxThreadCount: 80
       SingboxPath: sing-box
