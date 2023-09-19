@@ -42,8 +42,20 @@ public class ProxyCollector
         var profCountries = new List<(UrlTestResult TestResult, CountryInfo CountryInfo)>();
         foreach (var result in workingResults)
         {
-            var country = await _ipToCountryResolver.GetCountry(result.Profile.Address!);
-            profCountries.Add((result, country));
+            int retries = 3;
+            while (retries > 0)
+            {
+                try
+                {
+                    var country = await _ipToCountryResolver.GetCountry(result.Profile.Address!);
+                    profCountries.Add((result, country));
+                    break;
+                }
+                catch
+                {
+                    retries--;
+                }
+            }
         }
 
         var finalResults = profCountries
