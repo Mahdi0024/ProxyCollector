@@ -22,10 +22,21 @@ public class ProxyCollector
         _ipToCountryResolver = new IPToCountryResolver(Resources.ip2country_v4);
     }
 
+    private void LogToConsole(string log)
+    {
+        Console.WriteLine($"{DateTime.Now.TimeOfDay} - {log}");
+    }
+
     public async Task StartAsync()
     {
-        var profiles = await CollectAllProfiesFromConfigSources();
-        var workingResults = await TestProfiles(profiles.Distinct());
+        LogToConsole("Collector started.");
+
+        var profiles = (await CollectAllProfiesFromConfigSources()).Distinct().ToList();
+        LogToConsole($"Collected {profiles.Count} unique profiles.");
+
+        LogToConsole($"Began testing profiles.");
+        var workingResults = (await TestProfiles(profiles)).ToList();
+        LogToConsole($"Testing has finished, found {workingResults.Count} working profiles.");
 
         var profCountries = new List<(UrlTestResult TestResult, CountryInfo CountryInfo)>();
         foreach (var result in workingResults)
@@ -61,6 +72,7 @@ public class ProxyCollector
 
     private async Task CommitToGithub(string results)
     {
+        LogToConsole("Commiting results...");
         string? sha = null;
         var client = new GitHubClient(new ProductHeaderValue("ProxyCollector"))
         {
@@ -79,6 +91,7 @@ public class ProxyCollector
                 .Content
                 .CreateFile(_config.GithubUser, _config.GithubRepo, _config.ResultFilePath,
                 new CreateFileRequest("Added subscription file", results));
+            LogToConsole("Result file did not exist, created a new file.");
         }
         else
         {
@@ -86,6 +99,7 @@ public class ProxyCollector
                 .Content
                 .UpdateFile(_config.GithubUser, _config.GithubRepo, _config.ResultFilePath,
                 new UpdateFileRequest("Updated subscription", results, sha));
+            LogToConsole("Subscription file updated successfully.");
         }
     }
     private async Task<IEnumerable<UrlTestResult>> TestProfiles(IEnumerable<ProfileItem> profiles)
