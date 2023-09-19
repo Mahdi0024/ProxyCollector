@@ -1,5 +1,6 @@
 ﻿using CountryData.Standard;
 using IPinfo;
+using Newtonsoft.Json;
 using ProxyCollector.Configuration;
 using ProxyCollector.Models;
 using System.Net;
@@ -69,12 +70,13 @@ public sealed class IPToCountryResolver
 
     public async ValueTask<CountryInfo> GetCountry(IPAddress ip, CancellationToken cancellationToken = default)
     {
-        var response = await _httpClient.GetFromJsonAsync<IpLocationResponse>($"https://api.iplocation.net/?ip={ip}");
+        var response = await _httpClient.GetStringAsync($"https://api.iplocation.net/?ip={ip}");
+        var ipInfo = JsonConvert.DeserializeObject<IpLocationResponse>(response)!;
 
         return new CountryInfo
         {
-            CountryName = response!.CountryName,
-            CountryCode = response!.CountryCode
+            CountryName = ipInfo.CountryName,
+            CountryCode = ipInfo.CountryCode
         };
 
         //if (ip.AddressFamily is AddressFamily.InterNetwork)
