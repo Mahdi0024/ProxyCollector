@@ -7,6 +7,7 @@ using SingBoxLib.Configuration.Inbound;
 using SingBoxLib.Configuration.Outbound;
 using SingBoxLib.Configuration.Outbound.Abstract;
 using SingBoxLib.Configuration.Route;
+using SingBoxLib.Configuration.Shared;
 using SingBoxLib.Parsing;
 using SingBoxLib.Runtime;
 using SingBoxLib.Runtime.Testing;
@@ -113,11 +114,11 @@ public class ProxyCollector
 
         var urlTest = new UrlTestOutbound
         {
-            Tag = "auto",
             Outbounds = allOutboundTags,
             Interval = "10m",
             Tolerance = 200,
-            Url = "https://www.gstatic.com/generate_204"
+            Url = "https://www.gstatic.com/generate_204",
+            
         };
         outbounds.Add(urlTest);
 
@@ -135,16 +136,24 @@ public class ProxyCollector
                     Stack = TunStacks.System,
                     EndpointIndependantNat = true,
                     StrictRoute = true,
+                    Sniff = true,
+                    SniffOverrideDestination = true,
+                    DomainStategy = DomainStrategies.PreferIPV4
                 },
                 new MixedInbound
                 {
                     Listen = "127.0.0.1",
                     ListenPort = 2080,
+                    Sniff = true,
+                    SniffOverrideDestination = true,
+                    DomainStategy = DomainStrategies.PreferIPV4
                 }
             },
             Route = new()
             {
                 AutoDetectInterface = true,
+                OverrideAndroidVpn = true,
+                Final = "selector-out",
                 Rules = new()
                 {
                     new RouteRule
