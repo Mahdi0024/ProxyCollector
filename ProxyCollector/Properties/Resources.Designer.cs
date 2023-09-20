@@ -59,35 +59,5 @@ namespace ProxyCollector.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 1.0.0.0	1.0.0.255	US
-        ///1.0.1.0	1.0.3.255	None
-        ///1.0.4.0	1.0.5.255	AU
-        ///1.0.6.0	1.0.7.255	AU
-        ///1.0.8.0	1.0.15.255	None
-        ///1.0.16.0	1.0.16.255	JP
-        ///1.0.17.0	1.0.31.255	None
-        ///1.0.32.0	1.0.32.255	PH
-        ///1.0.33.0	1.0.63.255	None
-        ///1.0.64.0	1.0.127.255	JP
-        ///1.0.128.0	1.0.182.255	TH
-        ///1.0.183.0	1.0.222.255	TH
-        ///1.0.223.0	1.0.255.255	TH
-        ///1.1.0.0	1.1.0.255	None
-        ///1.1.1.0	1.1.1.255	US
-        ///1.1.2.0	1.1.7.255	None
-        ///1.1.8.0	1.1.8.255	CN
-        ///1.1.9.0	1.1.63.255	None
-        ///1.1.64.0	1.1.126.255	JP
-        ///1.1.127.0	1.1.127.255	None
-        ///1.1.128.0	1.1.140.255	TH
-        ///1.1.141.0	1.1.249.2 [rest of string was truncated]&quot;;.
-        /// </summary>
-        internal static string ip2country_v4 {
-            get {
-                return ResourceManager.GetString("ip2country-v4", resourceCulture);
-            }
-        }
     }
 }
