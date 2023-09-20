@@ -7,7 +7,8 @@ public class CollectorConfig
     public string GithubUser { get; private set; } = null!;
     public string GithubRepo { get; private set; } = null!;
     public string SingboxPath { get; private set; } = null!;
-    public string ResultFilePath { get; private set; } = null!;
+    public string V2rayFormatResultPath { get; private set; } = null!;
+    public string SingboxFormatResultPath { get; set; } = null!;
     public int MaxThreadCount { get; private set; }
     public int Timeout { get; private set; }
     public int Retries { get; private set; }
@@ -29,7 +30,8 @@ public class CollectorConfig
             GithubApiToken = Environment.GetEnvironmentVariable("GithubApiToken")!,
             GithubUser = Environment.GetEnvironmentVariable("GithubUser")!,
             GithubRepo = Environment.GetEnvironmentVariable("GithubRepo")!,
-            ResultFilePath = Environment.GetEnvironmentVariable("ResultFilePath")!,
+            V2rayFormatResultPath = Environment.GetEnvironmentVariable("V2rayFormatResultPath")!,
+            SingboxFormatResultPath = Environment.GetEnvironmentVariable("SingboxFormatResultPath")!,
             IpInfoApiToken = Environment.GetEnvironmentVariable("IpInfoApiToken")!,
             SingboxPath = Environment.GetEnvironmentVariable("SingboxPath")!,
             MaxThreadCount = int.Parse(Environment.GetEnvironmentVariable("MaxThreadCount")!),

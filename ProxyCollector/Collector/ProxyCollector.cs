@@ -9,6 +9,11 @@ using ProxyCollector.Services.IpToCountry;
 using ProxyCollector.Properties;
 using ProxyCollector.Models;
 using System.Diagnostics;
+using SingBoxLib.Configuration.Outbound.Abstract;
+using SingBoxLib.Configuration.Outbound;
+using SingBoxLib.Configuration;
+using SingBoxLib.Configuration.Inbound;
+using SingBoxLib.Configuration.Route;
 
 namespace ProxyCollector.Collector;
 
@@ -74,18 +79,112 @@ public class ProxyCollector
             )
             .SelectMany(x => x);
 
-        var finalResult = new StringBuilder();
-        foreach (var profile in finalResults)
-        {
-            finalResult.AppendLine(profile.ToProfileUrl());
-        }
-        await CommitToGithub(finalResult.ToString());
+
+        await CommitResults(finalResults.ToList());
+    }
+
+    private async Task CommitResults(List<ProfileItem> profiles)
+    {
+        LogToConsole("Commiting results...");
+
+        await CommitV2raySubscriptionResult(profiles);
+        await CommitSingboxSubscription(profiles);
 
     }
 
-    private async Task CommitToGithub(string results)
+    private async Task CommitSingboxSubscription(List<ProfileItem> profiles)
     {
-        LogToConsole("Commiting results...");
+        var outbounds = new List<OutboundConfig>(profiles.Count+3);
+        foreach(var profile in profiles)
+        {
+            var outbound = profile.ToOutboundConfig();
+            outbound.Tag = profile.Name;
+        }
+
+
+        var allOutboundTags = profiles.Select(profile => profile.Name!).ToList();
+        var selector = new SelectorOutbound();
+        selector.Outbounds = new List<string>(profiles.Count + 1)
+        {
+            "auto"
+        };
+        selector.Outbounds.AddRange(allOutboundTags);
+
+        outbounds.Add(selector);
+        outbounds.Add(new DnsOutbound());
+
+        var urlTest = new UrlTestOutbound
+        {
+            Outbounds = allOutboundTags,
+            Interval = "10m",
+            Tolerance = 200,
+            Url = "https://www.gstatic.com/generate_204"
+        };
+        outbounds.Add(urlTest);
+
+        var config = new SingBoxConfig
+        {
+            Outbounds = outbounds,
+            Inbounds = new()
+            {
+                new TunInbound
+                {
+                    InterfaceName = "tun0",
+                    INet4Address = "172.19.0.1/30",
+                    Mtu = 1500,
+                    AutoRoute = true,
+                    Stack = TunStacks.System,
+                    EndpointIndependantNat = true,
+                    StrictRoute = true,
+                },
+                new MixedInbound
+                {
+                    Listen = "127.0.0.1",
+                    ListenPort = 2080,
+                }
+            },
+            Route = new()
+            {
+                AutoDetectInterface = true,
+                Rules = new()
+                {
+                    new RouteRule
+                    {
+                        Port = new() { 53},
+                        Outbound = "dns-out"
+                    },
+                }
+            },
+            Experimental = new()
+            {
+                ClashApi = new()
+                {
+                    ExternalController = "127.0.0.1:9090",
+                    StoreSelected = true,
+                    CacheFile = "clash.db"
+                }
+            }
+        };
+        var finalResult = config.ToJson();
+
+        await CommitFileToGithub(finalResult, _config.SingboxFormatResultPath);
+
+        
+        
+    }
+
+    private async Task CommitV2raySubscriptionResult(List<ProfileItem> profiles)
+    {
+        var finalResult = new StringBuilder();
+        foreach (var profile in profiles)
+        {
+            finalResult.AppendLine(profile.ToProfileUrl());
+        }
+        await CommitFileToGithub(finalResult.ToString(), _config.V2rayFormatResultPath);
+    }
+
+    private async Task CommitFileToGithub(string content, string path)
+    {
         string? sha = null;
         var client = new GitHubClient(new ProductHeaderValue("ProxyCollector"))
         {
@@ -102,19 +201,20 @@ public class ProxyCollector
         {
             await client.Repository
                 .Content
-                .CreateFile(_config.GithubUser, _config.GithubRepo, _config.ResultFilePath,
-                new CreateFileRequest("Added subscription file", results));
+                .CreateFile(_config.GithubUser, _config.GithubRepo, path,
+                new CreateFileRequest("Added subscription file", content));
             LogToConsole("Result file did not exist, created a new file.");
         }
         else
         {
             await client.Repository
                 .Content
-                .UpdateFile(_config.GithubUser, _config.GithubRepo, _config.ResultFilePath,
-                new UpdateFileRequest("Updated subscription", results, sha));
+                .UpdateFile(_config.GithubUser, _config.GithubRepo, path,
+                new UpdateFileRequest("Updated subscription", content, sha));
             LogToConsole("Subscription file updated successfully.");
         }
     }
+
     private async Task<IEnumerable<UrlTestResult>> TestProfiles(IEnumerable<ProfileItem> profiles)
     {
         var tester = new ParallelUrlTester(
