@@ -98,10 +98,13 @@ public class ProxyCollector
         }
 
         var allOutboundTags = profiles.Select(profile => profile.Name!).ToList();
-        var selector = new SelectorOutbound();
-        selector.Outbounds = new List<string>(profiles.Count + 1)
+        var selector = new SelectorOutbound
         {
-            "auto"
+            Outbounds = new List<string>(profiles.Count + 1)
+            {
+               "auto"
+            },
+            Default = "auto"
         };
         selector.Outbounds.AddRange(allOutboundTags);
 
@@ -110,6 +113,7 @@ public class ProxyCollector
 
         var urlTest = new UrlTestOutbound
         {
+            Tag = "auto",
             Outbounds = allOutboundTags,
             Interval = "10m",
             Tolerance = 200,
