@@ -22,7 +22,8 @@ jobs:
       Retries: 5
       MaxThreadCount: 80
       SingboxPath: sing-box
-      ResultFilePath: sub/proxies.txt
+      V2rayFormatResultPath: sub/proxies.txt
+      SingboxFormatResultPath: sub/singbox.txt
       Sources: |
         https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1
         https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2
