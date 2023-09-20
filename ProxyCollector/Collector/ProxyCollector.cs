@@ -118,7 +118,6 @@ public class ProxyCollector
             Interval = "10m",
             Tolerance = 200,
             Url = "https://www.gstatic.com/generate_204",
-            
         };
         outbounds.Add(urlTest);
 
@@ -138,7 +137,7 @@ public class ProxyCollector
                     StrictRoute = true,
                     Sniff = true,
                     SniffOverrideDestination = true,
-                    DomainStategy = DomainStrategies.PreferIPV4
+                    DomainStrategy = DomainStrategies.PreferIPV4
                 },
                 new MixedInbound
                 {
@@ -146,7 +145,7 @@ public class ProxyCollector
                     ListenPort = 2080,
                     Sniff = true,
                     SniffOverrideDestination = true,
-                    DomainStategy = DomainStrategies.PreferIPV4
+                    DomainStrategy = DomainStrategies.PreferIPV4
                 }
             },
             Route = new()
