@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 
 namespace ProxyCollector.Models;
+
 public class IpLocationResponse
 {
     [JsonProperty("ip")]

@@ -1,19 +1,17 @@
-﻿using SingBoxLib.Parsing;
-using System.Collections.Concurrent;
-using System.Text;
-using SingBoxLib.Runtime.Testing;
-using SingBoxLib.Runtime;
-using Octokit;
+﻿using Octokit;
 using ProxyCollector.Configuration;
-using ProxyCollector.Services.IpToCountry;
-using ProxyCollector.Properties;
 using ProxyCollector.Models;
-using System.Diagnostics;
-using SingBoxLib.Configuration.Outbound.Abstract;
-using SingBoxLib.Configuration.Outbound;
+using ProxyCollector.Services;
 using SingBoxLib.Configuration;
 using SingBoxLib.Configuration.Inbound;
+using SingBoxLib.Configuration.Outbound;
+using SingBoxLib.Configuration.Outbound.Abstract;
 using SingBoxLib.Configuration.Route;
+using SingBoxLib.Parsing;
+using SingBoxLib.Runtime;
+using SingBoxLib.Runtime.Testing;
+using System.Collections.Concurrent;
+using System.Text;
 
 namespace ProxyCollector.Collector;
 
@@ -25,7 +23,7 @@ public class ProxyCollector
     public ProxyCollector()
     {
         _config = CollectorConfig.Instance;
-        _ipToCountryResolver = new IPToCountryResolver(Resources.ip2country_v4);
+        _ipToCountryResolver = new IPToCountryResolver();
     }
 
     private void LogToConsole(string log)
@@ -79,7 +77,6 @@ public class ProxyCollector
             )
             .SelectMany(x => x);
 
-
         await CommitResults(finalResults.ToList());
     }
 
@@ -89,18 +86,16 @@ public class ProxyCollector
 
         await CommitV2raySubscriptionResult(profiles);
         await CommitSingboxSubscription(profiles);
-
     }
 
     private async Task CommitSingboxSubscription(List<ProfileItem> profiles)
     {
-        var outbounds = new List<OutboundConfig>(profiles.Count+3);
-        foreach(var profile in profiles)
+        var outbounds = new List<OutboundConfig>(profiles.Count + 3);
+        foreach (var profile in profiles)
         {
             var outbound = profile.ToOutboundConfig();
             outbound.Tag = profile.Name;
         }
-
 
         var allOutboundTags = profiles.Select(profile => profile.Name!).ToList();
         var selector = new SelectorOutbound();
@@ -168,9 +163,6 @@ public class ProxyCollector
         var finalResult = config.ToJson();
 
         await CommitFileToGithub(finalResult, _config.SingboxFormatResultPath);
-
-        
-        
     }
 
     private async Task CommitV2raySubscriptionResult(List<ProfileItem> profiles)
@@ -192,7 +184,7 @@ public class ProxyCollector
         };
         try
         {
-            var contents = await client.Repository.Content.GetAllContents(_config.GithubUser, _config.GithubRepo, _config.ResultFilePath);
+            var contents = await client.Repository.Content.GetAllContents(_config.GithubUser, _config.GithubRepo, path);
             sha = contents.FirstOrDefault()?.Sha;
         }
         catch { }
@@ -232,6 +224,7 @@ public class ProxyCollector
         })), default);
         return workingResults;
     }
+
     private async Task<List<ProfileItem>> CollectAllProfiesFromConfigSources()
     {
         using var client = new HttpClient();
@@ -263,7 +256,6 @@ public class ProxyCollector
             }
             catch
             {
-
             }
 
             var profiles = new List<ProfileItem>();

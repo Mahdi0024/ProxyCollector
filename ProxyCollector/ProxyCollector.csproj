@@ -8,16 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Resources\ip2country-v4.tsv" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\ip2country-v4.tsv" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="CountryData.Standard" Version="1.3.0" />
-    <PackageReference Include="IPinfo" Version="2.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Octokit" Version="7.1.0" />
     <PackageReference Include="SingBoxLib" Version="1.0.7" />
@@ -36,6 +26,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
 
 </Project>

@@ -6,6 +6,7 @@ public class CountryInfo
     public string? CountryName { get; set; } = null!;
 
     private string? _countryFlag;
+
     public string CountryFlag
     {
         get
@@ -19,6 +20,7 @@ public class CountryInfo
             _countryFlag = value;
         }
     }
+
     private string IsoCountryCodeToFlagEmoji(string countryCode)
     {
         if (countryCode is "Unknown" or null)
