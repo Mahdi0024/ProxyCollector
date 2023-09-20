@@ -96,6 +96,7 @@ public class ProxyCollector
         {
             var outbound = profile.ToOutboundConfig();
             outbound.Tag = profile.Name;
+            outbounds.Add(outbound);
         }
 
         var allOutboundTags = profiles.Select(profile => profile.Name!).ToList();
