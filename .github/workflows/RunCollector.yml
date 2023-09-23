@@ -20,7 +20,7 @@ jobs:
       GithubRepo: ProxyCollector
       Timeout: 8000
       Retries: 5
-      MaxThreadCount: 128
+      MaxThreadCount: 160
       SingboxPath: sing-box
       V2rayFormatResultPath: sub/proxies.txt
       SingboxFormatResultPath: sub/singbox.txt
