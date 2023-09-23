@@ -13,7 +13,7 @@ public sealed class IPToCountryResolver
         _httpClient = new HttpClient();
     }
 
-    public async ValueTask<CountryInfo> GetCountry(string address, CancellationToken cancellationToken = default)
+    public async Task<CountryInfo> GetCountry(string address, CancellationToken cancellationToken = default)
     {
         IPAddress? ip = null;
         if (!IPAddress.TryParse(address, out ip))
@@ -25,7 +25,7 @@ public sealed class IPToCountryResolver
         return await GetCountry(ip, cancellationToken);
     }
 
-    public async ValueTask<CountryInfo> GetCountry(IPAddress ip, CancellationToken cancellationToken = default)
+    public async Task<CountryInfo> GetCountry(IPAddress ip, CancellationToken cancellationToken = default)
     {
         var response = await _httpClient.GetStringAsync($"https://api.iplocation.net/?ip={ip}");
         var ipInfo = JsonConvert.DeserializeObject<IpLocationResponse>(response)!;

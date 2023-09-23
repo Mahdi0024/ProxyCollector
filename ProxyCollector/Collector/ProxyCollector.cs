@@ -59,6 +59,7 @@ public class ProxyCollector
                 {
                     retries--;
                 }
+                await Task.Delay(1000);
             }
         }
 
@@ -77,6 +78,7 @@ public class ProxyCollector
                     })
             )
             .SelectMany(x => x);
+
 
         await CommitResults(finalResults.ToList());
     }
