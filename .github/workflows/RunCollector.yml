@@ -15,7 +15,6 @@ jobs:
 
     env:
       GithubApiToken: ${{secrets.GH_API_TOKEN}}
-      IpInfoApiToken: ${{secrets.IPINFOAPITOKEN}}
       GithubUser: Mahdi0024
       GithubRepo: ProxyCollector
       Timeout: 8000
