@@ -170,8 +170,9 @@ public class ProxyCollector
                 ClashApi = new()
                 {
                     ExternalController = "127.0.0.1:9090",
+                    ExternalUiDownloadUrl = "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
                     StoreSelected = true,
-                    CacheFile = "clash.db"
+                    CacheFile = "clash.db",
                 }
             }
         };
@@ -277,7 +278,7 @@ public class ProxyCollector
 
             using var reader = new StringReader(subContent);
             string? line = null;
-            while ((line = reader.ReadLine()) is not null)
+            while ((line = reader.ReadLine()?.Trim()) is not null)
             {
                 ProfileItem? profile = null;
                 try
