@@ -15,12 +15,11 @@ jobs:
 
     env:
       GithubApiToken: ${{secrets.GH_API_TOKEN}}
-      IpInfoApiToken: ${{secrets.IPINFOAPITOKEN}}
       GithubUser: Mahdi0024
       GithubRepo: ProxyCollector
       Timeout: 8000
       Retries: 5
-      MaxThreadCount: 80
+      MaxThreadCount: 256
       SingboxPath: sing-box
       V2rayFormatResultPath: sub/proxies.txt
       SingboxFormatResultPath: sub/singbox.txt
@@ -51,8 +50,8 @@ jobs:
 
     - name: Install sing-box
       run: |
-        wget https://github.com/SagerNet/sing-box/releases/download/v1.4.3/sing-box_1.4.3_linux_amd64.deb
-        sudo dpkg -i sing-box_1.4.3_linux_amd64.deb
+        wget https://github.com/SagerNet/sing-box/releases/download/v1.4.3/sing-box_1.4.3_linux_amd64v3.deb
+        sudo dpkg -i sing-box_1.4.3_linux_amd64v3.deb
         sudo apt-get install -f
         
     - name: Restore dependencies
