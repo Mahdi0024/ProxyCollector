@@ -170,6 +170,7 @@ public class ProxyCollector
                 ClashApi = new()
                 {
                     ExternalController = "127.0.0.1:9090",
+                    ExternalUi = "yacd",
                     ExternalUiDownloadUrl = "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
                     StoreSelected = true,
                     CacheFile = "clash.db",
