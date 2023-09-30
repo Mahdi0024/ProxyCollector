@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "GorazCollectorCli": {
-      "commandName": "Project",
-      "hotReloadEnabled": true
-    }
-  }
-}
