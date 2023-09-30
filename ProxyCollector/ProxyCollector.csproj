@@ -9,8 +9,8 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="Octokit" Version="7.1.0" />
-    <PackageReference Include="SingBoxLib" Version="1.0.8" />
+    <PackageReference Include="Octokit" Version="8.0.1" />
+    <PackageReference Include="SingBoxLib" Version="1.1.1" />
   </ItemGroup>
 
   <ItemGroup>
