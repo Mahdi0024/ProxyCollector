@@ -1,7 +1,7 @@
 # ProxyCollector
 Automatically collects V2Ray proxies from various web sources, combines and tests them and commits the results here on github.  
 Supported proxy types are: `VMess` `VLess` `Trojan` `Shadowsocks` `Socks` `Http` .  
-Subscriptions get automatically updated every 30 minutes.  
+Subscriptions get automatically updated every 24 hours.  
 [Singbox](https://github.com/SagerNet/sing-box) is used for testing proxies.
 ## Usage
 Simply import the subscription links in your client of choice.
