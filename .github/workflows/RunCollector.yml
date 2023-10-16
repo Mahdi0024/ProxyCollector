@@ -6,7 +6,7 @@ name: Run ProxyCollector
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 0 * * *'
 
 jobs:
   run:
