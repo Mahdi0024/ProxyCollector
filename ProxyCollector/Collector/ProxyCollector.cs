@@ -1,6 +1,5 @@
 ﻿using Octokit;
 using ProxyCollector.Configuration;
-using ProxyCollector.Models;
 using ProxyCollector.Services;
 using SingBoxLib.Configuration;
 using SingBoxLib.Configuration.Inbound;
@@ -34,36 +33,23 @@ public class ProxyCollector
 
     public async Task StartAsync()
     {
+        var startTime = DateTime.Now;
         LogToConsole("Collector started.");
 
         var profiles = (await CollectAllProfiesFromConfigSources()).Distinct().ToList();
         LogToConsole($"Collected {profiles.Count} unique profiles.");
 
-        LogToConsole($"Began testing profiles.");
+        LogToConsole($"Testing profiles with tcping...");
+        var aliveProfiles = await TcpingProfiles(profiles);
+        LogToConsole($"Found {aliveProfiles.Count} alive profiles.");
+
+        LogToConsole($"Beginning UrlTest proccess.");
         var workingResults = (await TestProfiles(profiles)).ToList();
         LogToConsole($"Testing has finished, found {workingResults.Count} working profiles.");
 
-        var profCountries = new List<(UrlTestResult TestResult, CountryInfo CountryInfo)>();
-        foreach (var result in workingResults)
-        {
-            int retries = 3;
-            while (retries > 0)
-            {
-                try
-                {
-                    var country = await _ipToCountryResolver.GetCountry(result.Profile.Address!);
-                    profCountries.Add((result, country));
-                    break;
-                }
-                catch
-                {
-                    retries--;
-                }
-                await Task.Delay(1000);
-            }
-        }
-
-        var finalResults = profCountries
+        LogToConsole($"Compiling results...");
+        var finalResults = workingResults
+            .Select(r => new { TestResult = r, CountryInfo = _ipToCountryResolver.GetCountry(r.Profile.Address!).Result })
             .GroupBy(p => p.CountryInfo.CountryCode)
             .Select
             (
@@ -77,17 +63,41 @@ public class ProxyCollector
                         return (profile);
                     })
             )
-            .SelectMany(x => x);
+            .SelectMany(x => x)
+            .ToList();
 
-
+        LogToConsole($"Uploading results...");
         await CommitResults(finalResults.ToList());
+
+        var timeSpent = DateTime.Now - startTime;
+        LogToConsole($"Job finished, time spent: {timeSpent}");
+    }
+
+    private async Task<List<ProfileItem>> TcpingProfiles(List<ProfileItem> profiles)
+    {
+        var aliveProfiles = new ConcurrentBag<ProfileItem>();
+        var tcping = new Tcpinger();
+        await Parallel.ForEachAsync(profiles, new ParallelOptions { MaxDegreeOfParallelism = _config.MaxThreadCount }, async (profile, ct) =>
+        {
+            try
+            {
+                if (await tcping.Ping(profile.Address!, (int)profile.Port!, _config.Timeout))
+                {
+                    aliveProfiles.Add(profile);
+                }
+            }
+            catch
+            {
+            }
+        });
+        return aliveProfiles.ToList();
     }
 
     private async Task CommitResults(List<ProfileItem> profiles)
     {
-        LogToConsole("Commiting results...");
-
+        LogToConsole($"Uploading V2ray Subscription...");
         await CommitV2raySubscriptionResult(profiles);
+        LogToConsole($"Uploading sing-box Subscription...");
         await CommitSingboxSubscription(profiles);
     }
 
