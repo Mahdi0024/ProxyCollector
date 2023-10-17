@@ -1,7 +1,7 @@
 # ProxyCollector
 Automatically collects V2Ray proxies from various web sources, combines and tests them and commits the results here on github.  
 Supported proxy types are: `VMess` `VLess` `Trojan` `Shadowsocks` `Socks` `Http` .  
-Subscriptions get automatically updated every 30 minutes.  
+Subscriptions get automatically updated every 24 hours.  
 [Singbox](https://github.com/SagerNet/sing-box) is used for testing proxies.
 ## Usage
 Simply import the subscription links in your client of choice.
@@ -19,5 +19,6 @@ Simply import the subscription links in your client of choice.
 - [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers)
 - [LonUp/NodeList](https://github.com/LonUp/NodeList/)
 - [ImMyron/V2ray](https://github.com/ImMyron/V2ray)
+- [freev2rayconfig/V2RAY_SUB](https://github.com/freev2rayconfig/V2RAY_SUB)
 ## Disclaimer
 I do not own any of the proxy servers provided by this project, this project simply collects and tests proxies from diffetrent subscription sources.
