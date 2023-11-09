@@ -54,8 +54,8 @@ jobs:
 
     - name: Install sing-box
       run: |
-        wget https://github.com/SagerNet/sing-box/releases/download/v1.4.3/sing-box_1.4.3_linux_amd64v3.deb
-        sudo dpkg -i sing-box_1.4.3_linux_amd64v3.deb
+        wget https://github.com/SagerNet/sing-box/releases/download/v1.6.2/sing-box_1.6.2_linux_amd64v3.deb
+        sudo dpkg -i sing-box_1.6.2_linux_amd64v3.deb
         sudo apt-get install -f
         
     - name: Restore dependencies
