@@ -17,9 +17,8 @@ jobs:
       GithubApiToken: ${{secrets.GH_API_TOKEN}}
       GithubUser: Mahdi0024
       GithubRepo: ProxyCollector
-      Timeout: 4000
-      Retries: 3
-      MaxThreadCount: 256
+      Timeout: 5000
+      MaxThreadCount: 128
       SingboxPath: sing-box
       V2rayFormatResultPath: sub/proxies.txt
       SingboxFormatResultPath: sub/singbox.txt
@@ -51,12 +50,12 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: 7.0.x
+        dotnet-version: 8.0.x
 
     - name: Install sing-box
       run: |
-        wget https://github.com/SagerNet/sing-box/releases/download/v1.6.2/sing-box_1.6.2_linux_amd64v3.deb
-        sudo dpkg -i sing-box_1.6.2_linux_amd64v3.deb
+        wget https://github.com/SagerNet/sing-box/releases/download/v1.6.4/sing-box_1.6.4_linux_amd64v3.deb
+        sudo dpkg -i sing-box_1.6.4_linux_amd64v3.deb
         sudo apt-get install -f
         
     - name: Restore dependencies
