@@ -44,6 +44,7 @@ jobs:
         https://raw.githubusercontent.com/ImMyron/V2ray/main/V2ray.txt
         https://raw.githubusercontent.com/freev2rayconfig/V2RAY_SUB/main/temporary_v2rayconfig.txt
         https://raw.githubusercontent.com/freev2rayconfig/V2RAY_SUB/main/v2ray.txt
+https://api.yebekhe.link/shervin
       
     steps:
     - uses: actions/checkout@v3
