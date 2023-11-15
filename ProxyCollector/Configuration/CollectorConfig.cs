@@ -3,25 +3,22 @@
 public class CollectorConfig
 {
     public static CollectorConfig Instance { get; private set; }
-    public string GithubApiToken { get; private set; } = null!;
-    public string GithubUser { get; private set; } = null!;
-    public string GithubRepo { get; private set; } = null!;
-    public string SingboxPath { get; private set; } = null!;
-    public string V2rayFormatResultPath { get; private set; } = null!;
-    public string SingboxFormatResultPath { get; set; } = null!;
-    public int MaxThreadCount { get; private set; }
-    public int Timeout { get; private set; }
-    public int Retries { get; private set; }
-    public string[] Sources { get; private set; } = null!;
+    public required string GithubApiToken { get; init; } = null!;
+    public required string GithubUser { get; init; } = null!;
+    public required string GithubRepo { get; init; } = null!;
+    public required string SingboxPath { get; init; } = null!;
+    public required string V2rayFormatResultPath { get; init; } = null!;
+    public required string SingboxFormatResultPath { get; init; } = null!;
+    public required int MaxThreadCount { get; init; }
+    public required int Timeout { get; init; }
+    public required string[] Sources { get; init; } = null!;
 
     static CollectorConfig()
     {
         Instance = CreateInstance();
     }
 
-    private CollectorConfig()
-    {
-    }
+    private CollectorConfig() { }
 
     private static CollectorConfig CreateInstance()
     {
@@ -35,7 +32,6 @@ public class CollectorConfig
             SingboxPath = Environment.GetEnvironmentVariable("SingboxPath")!,
             MaxThreadCount = int.Parse(Environment.GetEnvironmentVariable("MaxThreadCount")!),
             Timeout = int.Parse(Environment.GetEnvironmentVariable("Timeout")!),
-            Retries = int.Parse(Environment.GetEnvironmentVariable("Retries")!),
             Sources = Environment.GetEnvironmentVariable("Sources")!.Split("\n")
         };
     }

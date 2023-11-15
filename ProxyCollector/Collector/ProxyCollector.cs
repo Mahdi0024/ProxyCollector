@@ -39,10 +39,6 @@ public class ProxyCollector
         var profiles = (await CollectAllProfiesFromConfigSources()).Distinct().ToList();
         LogToConsole($"Collected {profiles.Count} unique profiles.");
 
-        LogToConsole($"Testing profiles with tcping...");
-        var aliveProfiles = await TcpingProfiles(profiles);
-        LogToConsole($"Found {aliveProfiles.Count} alive profiles.");
-
         LogToConsole($"Beginning UrlTest proccess.");
         var workingResults = (await TestProfiles(profiles)).ToList();
         LogToConsole($"Testing has finished, found {workingResults.Count} working profiles.");
@@ -71,26 +67,6 @@ public class ProxyCollector
 
         var timeSpent = DateTime.Now - startTime;
         LogToConsole($"Job finished, time spent: {timeSpent}");
-    }
-
-    private async Task<List<ProfileItem>> TcpingProfiles(List<ProfileItem> profiles)
-    {
-        var aliveProfiles = new ConcurrentBag<ProfileItem>();
-        var tcping = new Tcpinger();
-        await Parallel.ForEachAsync(profiles, new ParallelOptions { MaxDegreeOfParallelism = _config.MaxThreadCount }, async (profile, ct) =>
-        {
-            try
-            {
-                if (await tcping.Ping(profile.Address!, (int)profile.Port!, _config.Timeout))
-                {
-                    aliveProfiles.Add(profile);
-                }
-            }
-            catch
-            {
-            }
-        });
-        return aliveProfiles.ToList();
     }
 
     private async Task CommitResults(List<ProfileItem> profiles)
@@ -238,10 +214,9 @@ public class ProxyCollector
     {
         var tester = new ParallelUrlTester(
             new SingBoxWrapper(_config.SingboxPath),
-            Enumerable.Range(20000, _config.MaxThreadCount),
+    20000,
             _config.MaxThreadCount,
-            _config.Timeout,
-            _config.Retries);
+            _config.Timeout);
 
         var workingResults = new ConcurrentBag<UrlTestResult>();
         await tester.ParallelTestAsync(profiles, new Progress<UrlTestResult>((result =>
