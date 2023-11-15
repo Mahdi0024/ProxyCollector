@@ -3,16 +3,15 @@
 public class CollectorConfig
 {
     public static CollectorConfig Instance { get; private set; }
-    public required string GithubApiToken { get; init; } = null!;
-    public required string GithubUser { get; init; } = null!;
-    public required string GithubRepo { get; init; } = null!;
-    public required string SingboxPath { get; init; } = null!;
-    public required string V2rayFormatResultPath { get; init; } = null!;
-    public required string SingboxFormatResultPath { get; init; } = null!;
+    public required string GithubApiToken { get; init; }
+    public required string GithubUser { get; init; }
+    public required string GithubRepo { get; init; }
+    public required string SingboxPath { get; init; }
+    public required string V2rayFormatResultPath { get; init; }
+    public required string SingboxFormatResultPath { get; init; }
     public required int MaxThreadCount { get; init; }
     public required int Timeout { get; init; }
-    public required string[] Sources { get; init; } = null!;
-
+    public required string[] Sources { get; init; }
     static CollectorConfig()
     {
         Instance = CreateInstance();
