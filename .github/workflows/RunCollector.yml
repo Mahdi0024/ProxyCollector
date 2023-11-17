@@ -17,7 +17,7 @@ jobs:
       GithubApiToken: ${{secrets.GH_API_TOKEN}}
       GithubUser: Mahdi0024
       GithubRepo: ProxyCollector
-      Timeout: 15000
+      Timeout: 5000
       MaxThreadCount: 512
       SingboxPath: sing-box
       V2rayFormatResultPath: sub/proxies.txt
