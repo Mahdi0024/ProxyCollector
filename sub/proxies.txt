@@ -1,0 +1,16 @@
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7nwn4e8IFRhaXdhbiAoUHJvdmluY2Ugb2YgQ2hpbmEpIDEiLCJhZGQiOiJuYnExMi5udGJxLmR5bnUubmV0IiwicG9ydCI6NDQzLCJpZCI6IjUwZGMzYWQzLTcwY2UtNGYzYS1iOWYxLTg0OTRiY2Y5NzM2MiIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjpudWxsLCJob3N0IjoibmJxMTIubnRicS5keW51Lm5ldCIsImFscG4iOm51bGwsInBhdGgiOiIvYjEyIiwidGxzIjoidGxzIiwic25pIjoiIiwiZnAiOm51bGx9
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAxIiwiYWRkIjoicmFja25lcmQuZ29yZ29yY2hpY2tlbi5vbmUiLCJwb3J0Ijo4NDQzLCJpZCI6IjFkZjBhNmNhLTU4MTItNGJjZS1kZGIxLTljZDU1NDhmNDkxOSIsImFpZCI6IjAiLCJzY3kiOm51bGwsIm5ldCI6IndzIiwidHlwZSI6bnVsbCwiaG9zdCI6InJhY2tuZXJkLmdvcmdvcmNoaWNrZW4ub25lIiwiYWxwbiI6bnVsbCwicGF0aCI6Ii9yYWNrbmVyZCIsInRscyI6InRscyIsInNuaSI6IiIsImZwIjpudWxsfQ==
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAyIiwiYWRkIjoicHpsLnAyMzc4NzUxNTUuYnV6eiIsInBvcnQiOjQ0MywiaWQiOiI5Yjc4YjdmZS00N2EzLTQxZWItZDY5NS0yMjY5MmFjODM1YTAiLCJhaWQiOiIwIiwic2N5IjpudWxsLCJuZXQiOiJ3cyIsInR5cGUiOm51bGwsImhvc3QiOiJwemwucDIzNzg3NTE1NS5idXp6IiwiYWxwbiI6bnVsbCwicGF0aCI6Ii9wemwyMzc4NzUxNTUiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJwemwucDIzNzg3NTE1NS5idXp6IiwiZnAiOm51bGx9
+ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@167.88.61.175:8008#🇺🇸 United States of America 3
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@142.202.48.99:2375#🇺🇸 United States of America 4
+ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@198.244.231.24:443#🇬🇧 United Kingdom of Great Britain and Northern Ireland 1
+trojan://telegram-id-privatevpns@18.171.105.24:22222?security=tls&sni=trj.rollingnext.co.uk&path=%2f#%f0%9f%87%ac%f0%9f%87%a7%20United%20Kingdom%20of%20Great%20Britain%20and%20Northern%20Ireland%202
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@54.151.253.201:443#🇸🇬 Singapore 1
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.5.168:443#🇰🇷 Korea (Republic of) 1
+ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@51.77.53.200:9102#🇵🇱 Poland 1
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@51.77.53.200:5000#🇵🇱 Poland 2
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@54.36.174.181:5001#🇵🇱 Poland 3
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@54.36.174.181:5601#🇵🇱 Poland 4
+ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@54.36.174.181:9101#🇵🇱 Poland 5
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@54.36.174.181:2376#🇵🇱 Poland 6
+ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@54.36.174.181:8881#🇵🇱 Poland 7
