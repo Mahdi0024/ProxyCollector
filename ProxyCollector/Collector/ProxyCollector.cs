@@ -28,7 +28,7 @@ public class ProxyCollector
 
     private void LogToConsole(string log)
     {
-        Console.WriteLine($"{DateTime.Now.TimeOfDay} - {log}");
+        Console.WriteLine($"{DateTime.Now:HH:mm:ss} - {log}");
     }
 
     public async Task StartAsync()
@@ -36,11 +36,11 @@ public class ProxyCollector
         var startTime = DateTime.Now;
         LogToConsole("Collector started.");
 
-        var profiles = (await CollectAllProfiesFromConfigSources()).Distinct().ToList();
+        var profiles = (await CollectProfiesFromConfigSources()).Distinct().ToList();
         LogToConsole($"Collected {profiles.Count} unique profiles.");
 
         LogToConsole($"Beginning UrlTest proccess.");
-        var workingResults = (await TestProfiles(profiles)).ToList();
+        var workingResults = (await TestProfiles(profiles));
         LogToConsole($"Testing has finished, found {workingResults.Count} working profiles.");
 
         LogToConsole($"Compiling results...");
@@ -66,7 +66,7 @@ public class ProxyCollector
         await CommitResults(finalResults.ToList());
 
         var timeSpent = DateTime.Now - startTime;
-        LogToConsole($"Job finished, time spent: {timeSpent}");
+        LogToConsole($"Job finished, time spent: {timeSpent.Minutes:00} minutes and {timeSpent.Seconds:00} seconds.");
     }
 
     private async Task CommitResults(List<ProfileItem> profiles)
@@ -210,13 +210,14 @@ public class ProxyCollector
         }
     }
 
-    private async Task<IEnumerable<UrlTestResult>> TestProfiles(IEnumerable<ProfileItem> profiles)
+    private async Task<IReadOnlyCollection<UrlTestResult>> TestProfiles(IEnumerable<ProfileItem> profiles)
     {
         var tester = new ParallelUrlTester(
             new SingBoxWrapper(_config.SingboxPath),
     20000,
             _config.MaxThreadCount,
-            _config.Timeout);
+            _config.Timeout,
+            1024);
 
         var workingResults = new ConcurrentBag<UrlTestResult>();
         await tester.ParallelTestAsync(profiles, new Progress<UrlTestResult>((result =>
@@ -227,27 +228,25 @@ public class ProxyCollector
         return workingResults;
     }
 
-    private async Task<List<ProfileItem>> CollectAllProfiesFromConfigSources()
+    private async Task<IReadOnlyCollection<ProfileItem>> CollectProfiesFromConfigSources()
     {
         using var client = new HttpClient();
 
-        var subs = new ConcurrentBag<string>();
+        var profiles = new ConcurrentBag<ProfileItem>();
         await Parallel.ForEachAsync(_config.Sources, async (source, ct) =>
         {
             try
             {
-                var result = await client.GetStringAsync(source);
-                subs.Add(result);
+                var subContents = await client.GetStringAsync(source);
+                foreach (var profile in TryParseSubContent(subContents))
+                {
+                    profiles.Add(profile);
+                }
             }
             catch { }
         });
 
-        var profiles = Enumerable.Empty<ProfileItem>();
-        foreach (var subContent in subs)
-        {
-            profiles = profiles.Concat(TryParseSubContent(subContent));
-        }
-        return profiles.ToList();
+        return profiles;
 
         IEnumerable<ProfileItem> TryParseSubContent(string subContent)
         {
@@ -256,11 +255,7 @@ public class ProxyCollector
                 var contentData = Convert.FromBase64String(subContent);
                 subContent = Encoding.UTF8.GetString(contentData);
             }
-            catch
-            {
-            }
-
-            var profiles = new List<ProfileItem>();
+            catch { }
 
             using var reader = new StringReader(subContent);
             string? line = null;
