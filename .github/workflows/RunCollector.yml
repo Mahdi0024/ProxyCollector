@@ -42,7 +42,6 @@ jobs:
         https://raw.githubusercontent.com/LonUp/NodeList/main/V2RAY/Latest.txt
         https://raw.githubusercontent.com/freev2rayconfig/V2RAY_SUB/main/v2ray.txt
         https://api.yebekhe.link/shervin
-        https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed
       
     steps:
     - uses: actions/checkout@v3
