@@ -9,16 +9,13 @@ Simply import the subscription links in your client of choice.
 - [SingBox json config](https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/singbox.txt)
 ## Sources
 - [mahdibland/V2RayAggregator](https://github.com/mahdibland/V2RayAggregator)
-- [yebekhe/TelegramV2rayCollector](https://github.com/yebekhe/TelegramV2rayCollector/blob/main)
-- [yebekhe/ConfigCollector](https://github.com/yebekhe/ConfigCollector)
+- [TVC](https://github.com/yebekhe/TVC)
 - [w1770946466/Auto_Proxy](https://github.com/w1770946466/Auto_proxy)
 - [freefq/free](https://github.com/freefq/free)
 - [mfuu/v2ray](https://github.com/mfuu/v2ray)
 - [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe)
 - [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree)
 - [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers)
-- [LonUp/NodeList](https://github.com/LonUp/NodeList/)
-- [ImMyron/V2ray](https://github.com/ImMyron/V2ray)
 - [freev2rayconfig/V2RAY_SUB](https://github.com/freev2rayconfig/V2RAY_SUB)
 ## Disclaimer
 I do not own any of the proxy servers provided by this project, this project simply collects and tests proxies from diffetrent subscription sources.
