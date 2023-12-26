@@ -9,7 +9,7 @@ Simply import the subscription links in your client of choice.
 - [SingBox json config](https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/singbox.txt)
 ## Sources
 - [mahdibland/V2RayAggregator](https://github.com/mahdibland/V2RayAggregator)
-- [TVC](https://github.com/yebekhe/TVC)
+- [yebekhe/TVC](https://github.com/yebekhe/TVC)
 - [w1770946466/Auto_Proxy](https://github.com/w1770946466/Auto_proxy)
 - [freefq/free](https://github.com/freefq/free)
 - [mfuu/v2ray](https://github.com/mfuu/v2ray)
