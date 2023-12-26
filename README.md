@@ -1,7 +1,7 @@
 # ProxyCollector
 Automatically collects V2Ray proxies from various web sources, combines and tests them and commits the results here on github.  
 Supported proxy types are: `VMess` `VLess` `Trojan` `Shadowsocks` `Hysteria2` `Tuic` `Socks` `Http` .  
-Subscriptions get automatically updated every 24 hours.  
+Subscriptions are automatically updated every 24 hours.  
 [Singbox](https://github.com/SagerNet/sing-box) is used for testing proxies.
 ## Usage
 Simply import the subscription links in your client of choice.
@@ -17,5 +17,11 @@ Simply import the subscription links in your client of choice.
 - [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree)
 - [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers)
 - [freev2rayconfig/V2RAY_SUB](https://github.com/freev2rayconfig/V2RAY_SUB)
+- [Barabama/FreeNodes](https://github.com/Barabama/FreeNodes/tree/master/nodes)
+- [V2ray-Configs](https://github.com/barry-far/V2ray-Configs)
+- [Kwinshadow/TelegramV2rayCollector](https://github.com/Kwinshadow/TelegramV2rayCollector/tree/main)
+- [Flik6/getNode](https://github.com/Flik6/getNode)
+- [sashalsk/V2Ray](https://github.com/sashalsk/V2Ray/)
+- [soroushmirzaei/telegram-configs-collector](https://github.com/soroushmirzaei/telegram-configs-collector)
 ## Disclaimer
 I do not own any of the proxy servers provided by this project, this project simply collects and tests proxies from diffetrent subscription sources.
