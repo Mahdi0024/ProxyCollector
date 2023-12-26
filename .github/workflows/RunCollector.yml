@@ -41,6 +41,13 @@ jobs:
         https://raw.githubusercontent.com/freev2rayconfig/V2RAY_SUB/main/v2ray.txt
         https://api.yebekhe.link/shervin/
         https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed
+        https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt
+        https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/main/sublinks/mix.txt
+        https://raw.githubusercontent.com/a2470982985/getNode/main/v2ray.txt
+        https://raw.githubusercontent.com/sashalsk/V2Ray/main/V2Config
+        https://raw.githubusercontent.com/sashalsk/V2Ray/main/V2Ray-list-current
+        https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed
+        https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/merged.txt
       
     steps:
     - uses: actions/checkout@v3
