@@ -1,251 +1,242 @@
-trojan://wkmY1R4EcP@45.32.148.182:443?security=tls&sni=z-v2-002805.kailib.com&type=tcp&path=%2f#%f0%9f%87%ab%f0%9f%87%b7%20France%201
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@15.236.222.94:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=%2ftelegram-channel-vlessconfig-ws#%f0%9f%87%ab%f0%9f%87%b7%20France%202
-trojan://telegram-id-privatevpns@15.188.228.25:22222?security=tls&sni=trojan.miwan.co.uk&alpn=http%2f1.1&type=tcp&path=%2f#%f0%9f%87%ab%f0%9f%87%b7%20France%203
-trojan://telegram-id-privatevpns@13.38.153.192:22222?security=tls&sni=trojan.miwan.co.uk&alpn=http%2f1.1&type=tcp&path=%2f#%f0%9f%87%ab%f0%9f%87%b7%20France%204
-trojan://telegram-id-directvpn@13.39.209.209:22222?security=tls&sni=trojan.miwan.co.uk&alpn=http%2f1.1&type=tcp&path=%2f#%f0%9f%87%ab%f0%9f%87%b7%20France%205
-ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@149.202.82.172:8009#🇫🇷 France 6
-ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@149.202.82.172:5004#🇫🇷 France 7
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@217.182.198.219:5000#🇫🇷 France 8
-ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@217.182.198.219:4444#🇫🇷 France 9
-ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@149.202.82.172:2375#🇫🇷 France 10
-ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@149.202.82.172:8008#🇫🇷 France 11
-ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@149.202.82.172:7307#🇫🇷 France 12
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@149.202.82.172:5000#🇫🇷 France 13
-ss://YWVzLTI1Ni1nY206M2I5a3RaR3p0Qw==@162.19.25.207:34232#🇫🇷 France 14
-ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@149.202.82.172:8000#🇫🇷 France 15
-ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@149.202.82.172:8080#🇫🇷 France 16
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@149.202.82.172:5601#🇫🇷 France 17
-ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@149.202.82.172:7001#🇫🇷 France 18
-ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@149.202.82.172:2376#🇫🇷 France 19
-ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@149.202.82.172:7002#🇫🇷 France 20
-ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@149.202.82.172:8118#🇫🇷 France 21
-vless://ae4ed37c-1a72-4eb7-b72c-2be08b5ae7a2@141.94.115.231:443?security=tls&sni=fr-full.privateip.net&type=ws&path=%2fVLESS#%f0%9f%87%ab%f0%9f%87%b7%20France%2022
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@217.182.198.219:3389#🇫🇷 France 23
-ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@149.202.82.172:8882#🇫🇷 France 24
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@51.159.111.208:989#🇫🇷 France 25
-ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@149.202.82.172:6379#🇫🇷 France 26
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@149.202.82.172:3306#🇫🇷 France 27
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@149.202.82.172:3389#🇫🇷 France 28
-ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@149.202.82.172:8119#🇫🇷 France 29
-ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@217.182.198.219:2375#🇫🇷 France 30
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@217.182.198.219:3306#🇫🇷 France 31
-ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@149.202.82.172:5003#🇫🇷 France 32
-ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@217.182.198.219:2376#🇫🇷 France 33
-ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@149.202.82.172:8881#🇫🇷 France 34
-ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@149.202.82.172:6679#🇫🇷 France 35
-ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@149.202.82.172:8091#🇫🇷 France 36
-ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@149.202.82.172:7306#🇫🇷 France 37
-ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@149.202.82.172:9102#🇫🇷 France 38
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@149.202.82.172:8888#🇫🇷 France 39
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@149.202.82.172:5001#🇫🇷 France 40
-ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@149.202.82.172:443#🇫🇷 France 41
-ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@149.202.82.172:9101#🇫🇷 France 42
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@149.202.82.172:5600#🇫🇷 France 43
-ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@149.202.82.172:4444#🇫🇷 France 44
-ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@149.202.82.172:5500#🇫🇷 France 45
-ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@149.202.82.172:6697#🇫🇷 France 46
-vless://ae4ed37c-1a72-4eb7-b72c-2be08b5ae7a2@141.94.115.231:2003?security=tls&sni=fr-full.privateip.net&type=grpc&serviceName=GRPC&path=%2f#%f0%9f%87%ab%f0%9f%87%b7%20France%2047
-vless://0e424dc4-974f-4118-b580-5e99c1afd81f@51.75.77.237:443?security=tls&sni=de-full.privateip.net&type=ws&path=%2fVLESS#%f0%9f%87%ab%f0%9f%87%b7%20France%2048
-vless://d8253715-9664-4c3b-9ecd-e4805c8430f8@37.59.166.156:48576?security=reality&sni=ea.com&fp=chrome&pbk=i-TBCDM3b7W2NE5JavNy7XBTsQwIjYD7qG9VEVfnxjg&sid=b1b454f6&type=grpc&path=%2f#%f0%9f%87%ab%f0%9f%87%b7%20France%2049
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8=@51.178.87.37:810#🇫🇷 France 50
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8=@51.178.87.37:800#🇫🇷 France 51
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8=@51.178.87.37:804#🇫🇷 France 52
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8=@51.178.87.37:805#🇫🇷 France 53
-ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@38.121.43.6:8008#🇺🇸 United States of America 1
-vless://09e7cd51-a937-49ea-b3d1-a122e4c78091@198.58.109.150:443?security=tls&sni=us2-full.privateip.net&type=ws&path=%2fVLESS#%f0%9f%87%ba%f0%9f%87%b8%20United%20States%20of%20America%202
-ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=@156.146.38.163:443#🇺🇸 United States of America 3
-ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@167.88.62.30:8090#🇺🇸 United States of America 4
-ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.121.43.97:7306#🇺🇸 United States of America 5
-vless://47cc5e21-2752-4455-9ab8-c6a88da5439a@96.126.127.7:443?security=tls&sni=us-full.privateip.net&type=ws&path=%2fVLESS#%f0%9f%87%ba%f0%9f%87%b8%20United%20States%20of%20America%206
-ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.68.134.9:8881#🇺🇸 United States of America 7
-ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@38.68.134.9:9101#🇺🇸 United States of America 8
-ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@38.75.136.135:8009#🇺🇸 United States of America 9
-ss://YWVzLTI1Ni1nY206aVVCMDkyM1JCQQ==@154.3.8.151:30067#🇺🇸 United States of America 10
-ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.75.137.66:5004#🇺🇸 United States of America 11
-ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@38.75.136.135:6679#🇺🇸 United States of America 12
-ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.75.136.135:8118#🇺🇸 United States of America 13
-vless://09e7cd51-a937-49ea-b3d1-a122e4c78091@198.58.109.150:2003?security=tls&sni=us2-full.privateip.net&type=grpc&serviceName=GRPC&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20United%20States%20of%20America%2014
-ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=@212.102.47.198:443#🇺🇸 United States of America 15
-vless://47cc5e21-2752-4455-9ab8-c6a88da5439a@96.126.127.7:2003?security=tls&sni=us-full.privateip.net&type=grpc&serviceName=GRPC&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20United%20States%20of%20America%2016
-ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@23.158.200.180:5500#🇺🇸 United States of America 17
-ss://YWVzLTI1Ni1jZmI6MjE3MGY4@45.55.2.232:14293#🇺🇸 United States of America 18
-vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAxOSIsImFkZCI6IjE5Mi45LjEzNC44MiIsInBvcnQiOjE5MzQ0LCJpZCI6ImFjOWRkNDA3LWQwNTMtNGM2Ny1lNDRlLTMxZDZhNTgzM2ZmNCIsImFpZCI6IjAiLCJzY3kiOm51bGwsIm5ldCI6IndzIiwidHlwZSI6bnVsbCwiaG9zdCI6InhyYXkuY2hlZXNob24uY3lvdSIsImFscG4iOm51bGwsInBhdGgiOiIvYWM5ZGQ0MDciLCJ0bHMiOiIiLCJzbmkiOm51bGwsImZwIjpudWxsfQ==
-ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@139.64.165.104:8118#🇺🇸 United States of America 20
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0c3BjVjg2V1hBZVA1U3I5Q2FhV2V3@5.78.92.197:8443#🇺🇸 United States of America 21
-vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAyMiIsImFkZCI6Ind3dy5icmlnaHRvY2Vhbi5sb2wiLCJwb3J0Ijo4MDgwLCJpZCI6IjIyODI2YjQ0LTVjMWEtNGI0Yi1kYmFhLTgzYTJlOGJkOTVmMCIsImFpZCI6IjAiLCJzY3kiOm51bGwsIm5ldCI6IndzIiwidHlwZSI6bnVsbCwiaG9zdCI6Ind3dy5icmlnaHRvY2Vhbi5sb2wiLCJhbHBuIjpudWxsLCJwYXRoIjoiLyIsInRscyI6IiIsInNuaSI6bnVsbCwiZnAiOm51bGx9
-ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@67.220.86.150:9102#🇺🇸 United States of America 23
-ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@167.88.61.175:7306#🇺🇸 United States of America 24
-ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@67.220.86.72:8882#🇺🇸 United States of America 25
-ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@67.220.86.148:8000#🇺🇸 United States of America 26
-vless://a9bd02d0-5b7b-44c5-bfe0-1c965f9f1f1f@64.23.198.141:443?security=reality&sni=yahoo.com&fp=firefox&pbk=5g9es6lOoOCcJm9VZFwluzFlaxWe5B33Q97vjNYlPAw&sid=c462d285&type=grpc&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20United%20States%20of%20America%2027
-ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@142.202.48.99:443#🇺🇸 United States of America 28
-vless://a6292090-afe1-4640-97a7-4f1d1d877cf1@188.114.99.29:443?security=tls&sni=hdfy8c1.foriran.me&alpn=h2&fp=chrome&type=grpc&serviceName=PvSPM3IC5KffvrsN6rqb&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20United%20States%20of%20America%2029
-vless://5eedadd1-a6a9-4183-aa83-4cd5421d9265@104.21.37.100:443?security=tls&sni=Mnbjahgajhshajagsisgkenejev.mrv2ray.com&alpn=h2&fp=safari&type=grpc&serviceName=%40FREE_VPN02%2c%40FREE_VPN02%2c%40FREE_VPN02%2c%40FREE_VPN02&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20United%20States%20of%20America%2030
-ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@142.202.48.99:5003#🇺🇸 United States of America 31
-vless://a2b657a5-1797-47b7-9cf3-3005e14fe26b@104.18.203.232:2096?security=tls&sni=iranproxy.hackers855.sbs&type=grpc&serviceName=Telegram%3a%40iranproxypro-Telegram%3a%40iranproxypro-Telegram%3a%40iranproxypro-Telegram%3a%40iranproxypro-Telegram%3a%40iranproxypro-Telegram%3a%40iranproxypro-Telegram%3a%40iranproxypro-Telegram%3a%40iranproxypro&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20United%20States%20of%20America%2032
-vless://a2b657a5-1797-47b7-9cf3-3005e14fe26b@104.18.202.232:2096?security=tls&sni=iranproxy.hackers855.sbs&type=grpc&serviceName=Telegram%3a%40iranproxypro-Telegram%3a%40iranproxypro-Telegram%3a%40iranproxypro-Telegram%3a%40iranproxypro-Telegram%3a%40iranproxypro-Telegram%3a%40iranproxypro-Telegram%3a%40iranproxypro-Telegram%3a%40iranproxypro&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20United%20States%20of%20America%2033
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxOUd6QVRXM1RWQ2NTN29heE81cEFp@52.178.196.119:3214#🇮🇪 Ireland 1
-trojan://telegram-id-privatevpns@63.33.75.225:22222?security=tls&sni=trojan.miwan.co.uk&alpn=http%2f1.1&type=tcp&path=%2f#%f0%9f%87%ae%f0%9f%87%aa%20Ireland%202
-trojan://telegram-id-privatevpns@108.128.237.101:22222?security=tls&sni=trojan.miwan.co.uk&alpn=http%2f1.1&type=tcp&path=%2f#%f0%9f%87%ae%f0%9f%87%aa%20Ireland%203
-trojan://telegram-id-directvpn@34.255.156.164:22222?security=tls&sni=trojan.miwan.co.uk&alpn=http%2f1.1&type=tcp&path=%2f#%f0%9f%87%ae%f0%9f%87%aa%20Ireland%204
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@52.208.94.66:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=%2ftelegram-channel-vlessconfig-ws#%f0%9f%87%ae%f0%9f%87%aa%20Ireland%205
-trojan://telegram-id-privatevpns@54.74.172.115:22222?security=tls&sni=trojan.miwan.co.uk&alpn=http%2f1.1&type=tcp&path=%2f#%f0%9f%87%ae%f0%9f%87%aa%20Ireland%206
-vless://a5d5309b-2fc4-4a38-9a89-51e774154858@54.217.45.184:43401?security=tls&sni=alikala52.bluenance.com&fp=chrome&type=grpc&path=%2f#%f0%9f%87%ae%f0%9f%87%aa%20Ireland%207
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@179.49.5.114:989#🇪🇨 Ecuador 1
-vless://22f3cbcc-55b5-4d71-a3ca-9d6f3287aace@144.126.234.182:51697?security=reality&sni=*.sourceforge.net&fp=firefox&pbk=3KmWh8OPrAr-gBXyVdyS4IaB8DKUTtdIpbv5qvN15RY&sid=c2abcb19&type=tcp&path=%2f#%f0%9f%87%ac%f0%9f%87%a7%20United%20Kingdom%20of%20Great%20Britain%20and%20Northern%20Ireland%201
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4WGdyTlJNdXRWSzFIQXhOUDFvdEJR@51.143.138.203:56917#🇬🇧 United Kingdom of Great Britain and Northern Ireland 2
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUNTNzVVZjNlFoT2phMlI1Q1pQR0Nk@51.143.138.181:25664#🇬🇧 United Kingdom of Great Britain and Northern Ireland 3
-vless://97a3b0e9-f44f-4dad-96af-40a14b3ae680@143.110.169.66:26329?security=reality&sni=*.sourceforge.net&fp=firefox&pbk=ir5yuFXmp49WTWAsoD_mxmfbPf6lROEmzcgrCpopWDc&sid=7ea2155d&type=tcp&path=%2f#%f0%9f%87%ac%f0%9f%87%a7%20United%20Kingdom%20of%20Great%20Britain%20and%20Northern%20Ireland%204
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZSmdQaHBCRjN3RW95M0g1Q3hYeVVT@51.143.138.80:64507#🇬🇧 United Kingdom of Great Britain and Northern Ireland 5
-vless://5ba6acff-11c0-4e64-af7d-4767ac591244@178.128.37.164:443?security=none&type=ws&path=%2firanmedicalvpn#%f0%9f%87%ac%f0%9f%87%a7%20United%20Kingdom%20of%20Great%20Britain%20and%20Northern%20Ireland%206
-vless://c74bb359-f326-4016-a0fa-30e62cae9c31@198.244.190.189:443?security=tls&sni=uk-full.privateip.net&type=ws&path=%2fVLESS#%f0%9f%87%ac%f0%9f%87%a7%20United%20Kingdom%20of%20Great%20Britain%20and%20Northern%20Ireland%207
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRnQ0YTdDM2NFN3FNejd3ZXl5RUdJ@51.143.138.95:13288#🇬🇧 United Kingdom of Great Britain and Northern Ireland 8
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMUUJyTHo0bHV5OWUxcWc1UzdOV0hN@51.143.138.178:33028#🇬🇧 United Kingdom of Great Britain and Northern Ireland 9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFYUNSUUptaWpyVlAzdVp1Q3dETHI5@51.143.138.171:9424#🇬🇧 United Kingdom of Great Britain and Northern Ireland 10
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHT2JGem1xNTFGM2R1bW9tVzVqWHkw@51.143.138.174:51984#🇬🇧 United Kingdom of Great Britain and Northern Ireland 11
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnVUt5TzI5am9yOFFaa3FOSDRJR05s@51.143.138.158:30837#🇬🇧 United Kingdom of Great Britain and Northern Ireland 12
-trojan://telegram-id-privatevpns@35.177.196.215:22222?security=tls&sni=trojan.miwan.co.uk&alpn=http%2f1.1&type=tcp&path=%2f#%f0%9f%87%ac%f0%9f%87%a7%20United%20Kingdom%20of%20Great%20Britain%20and%20Northern%20Ireland%2013
-trojan://telegram-id-directvpn@18.169.217.98:22222?security=tls&sni=trojan.miwan.co.uk&alpn=http%2f1.1&type=tcp&path=%2f#%f0%9f%87%ac%f0%9f%87%a7%20United%20Kingdom%20of%20Great%20Britain%20and%20Northern%20Ireland%2014
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@18.175.41.237:443#🇬🇧 United Kingdom of Great Britain and Northern Ireland 15
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjTmdkc05zYjRIZHV0cnRVQlN1Nmc1@51.142.170.15:20944#🇬🇧 United Kingdom of Great Britain and Northern Ireland 16
-trojan://telegram-id-privatevpns@3.11.47.2:22222?security=tls&sni=trojan.miwan.co.uk&alpn=http%2f1.1&type=tcp&path=%2f#%f0%9f%87%ac%f0%9f%87%a7%20United%20Kingdom%20of%20Great%20Britain%20and%20Northern%20Ireland%2017
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@52.56.50.5:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=%2ftelegram-channel-vlessconfig-ws#%f0%9f%87%ac%f0%9f%87%a7%20United%20Kingdom%20of%20Great%20Britain%20and%20Northern%20Ireland%2018
-vless://378387d5-4370-4e38-9661-25796e8630ba@143.47.241.46:16097?flow=xtls-rprx-vision&security=reality&sni=www.amazon.com&fp=chrome&pbk=qMH_7IYKzR0mOLN35mnQijwzN8IiWdudhryTHaQzWS0&type=tcp&path=%2f#%f0%9f%87%ac%f0%9f%87%a7%20United%20Kingdom%20of%20Great%20Britain%20and%20Northern%20Ireland%2019
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqR1UxN2ZDa1FqaTk2eEZCZTFBUFNm@51.142.171.225:58488#🇬🇧 United Kingdom of Great Britain and Northern Ireland 20
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprVGpsTHhybmNLeDRpMkhJanhmQTNN@51.142.171.150:49499#🇬🇧 United Kingdom of Great Britain and Northern Ireland 21
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnY3BWZWhWeXRzbGVwbWtISFJMWFl4@51.142.173.103:51899#🇬🇧 United Kingdom of Great Britain and Northern Ireland 22
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNTd6VmJsVFFzNjBlZ1hVaXphcTRZ@51.142.173.34:27842#🇬🇧 United Kingdom of Great Britain and Northern Ireland 23
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1aWkxNmZtUFRtczhpY1luWXZ4VWZh@51.142.159.23:32790#🇬🇧 United Kingdom of Great Britain and Northern Ireland 24
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@13.43.254.33:443#🇬🇧 United Kingdom of Great Britain and Northern Ireland 25
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxRnFxS2Y3OEZ1TUhuQnFveGVXejRS@51.11.104.69:16550#🇬🇧 United Kingdom of Great Britain and Northern Ireland 26
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppenF4ZWNzc3dzOXpzZjBNUnp5RE4x@51.142.159.50:30291#🇬🇧 United Kingdom of Great Britain and Northern Ireland 27
-vless://01c0b5de-916d-4613-8a88-249f5b67369f@91.231.186.76:443?flow=xtls-rprx-vision&security=tls&sni=uk-freevmess.privateip.net&type=tcp&path=%2f#%f0%9f%87%ac%f0%9f%87%a7%20United%20Kingdom%20of%20Great%20Britain%20and%20Northern%20Ireland%2028
-ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@51.68.206.229:8080#🇬🇧 United Kingdom of Great Britain and Northern Ireland 29
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@77.72.5.150:989#🇬🇧 United Kingdom of Great Britain and Northern Ireland 30
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@77.72.5.113:989#🇬🇧 United Kingdom of Great Britain and Northern Ireland 31
-vless://4534d7c9-c5dd-490a-9f14-75245f58ae01@51.195.149.115:26475?security=none&type=tcp&path=%2f#%f0%9f%87%ac%f0%9f%87%a7%20United%20Kingdom%20of%20Great%20Britain%20and%20Northern%20Ireland%2032
-ss://YWVzLTI1Ni1nY206S2tEelkxMDFPZQ==@51.195.149.115:45816#🇬🇧 United Kingdom of Great Britain and Northern Ireland 33
-vless://c74bb359-f326-4016-a0fa-30e62cae9c31@198.244.190.189:2003?security=tls&sni=uk-full.privateip.net&type=grpc&serviceName=GRPC&path=%2f#%f0%9f%87%ac%f0%9f%87%a7%20United%20Kingdom%20of%20Great%20Britain%20and%20Northern%20Ireland%2034
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@163.172.222.168:5001#🇳🇱 Netherlands (Kingdom of the) 1
-trojan://wkmY1R4EcP@209.250.246.191:443?security=tls&sni=z-v2-003294.kailib.com&type=tcp&path=%2f#%f0%9f%87%b3%f0%9f%87%b1%20Netherlands%20(Kingdom%20of%20the)%202
-trojan://wkmY1R4EcP@78.141.221.194:443?security=tls&sni=z-v2-002750.kailib.com&type=tcp&path=%2f#%f0%9f%87%b3%f0%9f%87%b1%20Netherlands%20(Kingdom%20of%20the)%203
-ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=@109.201.152.181:443#🇳🇱 Netherlands (Kingdom of the) 4
-vless://e8460df3-54cb-4659-ca6f-a869272e14a3@164.92.154.121:8880?security=none&type=ws&host=digi5.%e5%88%97%e5%88%97%e7%94%b7%e4%ba%8b%e7%9a%84%e4%ba%8b%e5%88%97%e4%b8%8a%e8%b5%9b%e7%94%b778.com&path=%2fTelegram%3a%40NUFiLTER-Telegram%3a%40NUFiLTER-Telegram%3a%40NUFiLTER-Telegram%3a%40NUFiLTER-Telegram%3a%40NUFiLTER-Telegram%3a%40NUFiLTER-Telegram%3a%40NUFiLTER-Telegram%3a%40NUFiLTER-Telegram%3a%40NUFiLTER-Telegram%3a%40NUFiLTER-Telegram%3a%40NUFiLTER#%f0%9f%87%b3%f0%9f%87%b1%20Netherlands%20(Kingdom%20of%20the)%205
-ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY=@51.158.150.210:5498#🇳🇱 Netherlands (Kingdom of the) 6
-vless://155fd124-1ad3-4a0c-fb38-aa7d20baed43@195.123.219.39:31303?security=none&type=tcp&path=%2f#%f0%9f%87%b3%f0%9f%87%b1%20Netherlands%20(Kingdom%20of%20the)%207
-ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@163.172.210.138:8882#🇳🇱 Netherlands (Kingdom of the) 8
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNmNhNzVkYy0xMDg2LTQ3ZDktOWY4ZC00NmY5MWQwNWVmZWQ=@93.185.163.162:8388#🇳🇱 Netherlands (Kingdom of the) 9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYbFVGZ29PcURsVnFsWkZEM0pzMFlB@172.233.51.96:8080#🇳🇱 Netherlands (Kingdom of the) 10
-ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@51.15.13.210:6679#🇳🇱 Netherlands (Kingdom of the) 11
-vless://7d75c724-d45e-4918-8f64-e56b78bd6e2a@188.119.112.242:443?security=tls&sni=nl-full.privateip.net&type=ws&path=%2fVLESS#%f0%9f%87%b3%f0%9f%87%b1%20Netherlands%20(Kingdom%20of%20the)%2012
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOQzdqT1JWTnJydVYvKzMrUHdPSnJubk9lRzduNzVYMQ==@89.19.216.18:8388#🇳🇱 Netherlands (Kingdom of the) 13
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1dlBORzcwajFacWZFRzVlZTZhUUdX@94.131.106.6:43743#🇳🇱 Netherlands (Kingdom of the) 14
-ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@51.158.146.180:8881#🇳🇱 Netherlands (Kingdom of the) 15
-ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@51.158.146.102:7001#🇳🇱 Netherlands (Kingdom of the) 16
-trojan://a6292090-afe1-4640-97a7-4f1d1d877cf1@95.179.128.114:443?security=tls&sni=hdfy8d1.cpi1.eu.org&alpn=h2&fp=chrome&type=grpc&serviceName=8bHUAD5IX0lC5KffvrsN6rqb&path=%2f#%f0%9f%87%b3%f0%9f%87%b1%20Netherlands%20(Kingdom%20of%20the)%2017
-vless://7d75c724-d45e-4918-8f64-e56b78bd6e2a@188.119.112.242:2003?security=tls&sni=nl-full.privateip.net&type=grpc&serviceName=GRPC&path=%2f#%f0%9f%87%b3%f0%9f%87%b1%20Netherlands%20(Kingdom%20of%20the)%2018
-vless://a5421443-322f-4ad8-92a7-bc5b2ac18426@152.42.134.193:1487?security=reality&sni=www.speedtest.net&fp=chrome&pbk=d9Js380tDTgVEIledyWT6z6vyEQCxKA7kVK7vXCFQE4&sid=31b76e94&type=grpc&serviceName=%40adwork1ch&path=%2f#%f0%9f%87%b3%f0%9f%87%b1%20Netherlands%20(Kingdom%20of%20the)%2019
-vless://a5421443-322f-4ad8-92a7-bc5b2ac18426@152.42.134.182:1487?security=reality&sni=www.speedtest.net&fp=chrome&pbk=d9Js380tDTgVEIledyWT6z6vyEQCxKA7kVK7vXCFQE4&sid=31b76e94&type=grpc&serviceName=%40adwork1ch&path=%2f#%f0%9f%87%b3%f0%9f%87%b1%20Netherlands%20(Kingdom%20of%20the)%2020
-vless://59900344-9850-5676-5538-520141532025@156.236.31.192:40316?security=tls&sni=a.korton.co.in&type=grpc&path=%2f#%f0%9f%87%b3%f0%9f%87%b1%20Netherlands%20(Kingdom%20of%20the)%2021
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@92.38.163.53:989#🇱🇺 Luxembourg 1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1ZzRGdTc5U0VSRWRGR2x0MnNVeVQ0@95.164.9.144:2927#🇦🇹 Austria 1
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@138.186.142.4:989#🇵🇦 Panama 1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqZVFJZVRmdnJGRnJ6Q0JLMTJNN1VO@162.221.207.62:443#🇨🇦 Canada 1
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@190.120.231.45:989#🇨🇴 Colombia 1
-vless://8cd1b9a8-1f8c-45c3-be80-59094c2091f3@178.128.193.212:443?security=tls&sni=de2-full.privateip.net&type=ws&path=%2fVLESS#%f0%9f%87%a9%f0%9f%87%aa%20Germany%201
-vless://910c1823-c1eb-4920-bbed-8b806efab1db@45.76.82.110:27496?security=reality&sni=www.speedtest.net&fp=chrome&pbk=f3f286s8xsEhduAwUrX69O8Qjgaygwdnoq0j7Ys9GlI&sid=a228ea91&type=tcp&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%202
-trojan://telegram-id-privatevpns@18.195.87.1:22222?security=tls&sni=trojan.miwan.co.uk&alpn=http%2f1.1&type=tcp&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%203
-vless://5669edf0-1a46-4d31-8284-c339adda52de@174.138.102.158:443?security=none&type=tcp&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%204
-vless://345daaa5-0db8-4e18-821e-5bad00801030@199.247.23.98:34371?security=none&type=tcp&headerType=http&host=zula.ir&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%205
-vmess://eyJ2IjpudWxsLCJwcyI6IvCfh6nwn4eqIEdlcm1hbnkgNiIsImFkZCI6IjM4LjU0LjEzLjIxMiIsInBvcnQiOjIzMDI2LCJpZCI6ImVmNGQwOTMwLTM3ODgtNDQxMC05MzA1LWZhZTRiYTY1MmVkZSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjpudWxsLCJob3N0IjoidG1zLmRpbmd0YWxrLmNvbSIsImFscG4iOm51bGwsInBhdGgiOiIvZWY0ZDA5MzAiLCJ0bHMiOiIiLCJzbmkiOm51bGwsImZwIjpudWxsfQ==
-vless://5775c59a-b87e-46bc-a87c-56a77da5328f@45.77.53.53:34372?security=none&type=tcp&headerType=http&host=zula.ir&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%207
-vless://d8de441e-5783-4972-83ff-80e9adbec499@5.75.168.164:38062?type=tcp&headerType=http&host=fast.com&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%208
-vless://2963f2dc-36f6-4bca-aa90-b292eaf0305a@91.107.128.7:443?security=none&type=tcp&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%209
-vless://dbff34ab-eb96-441d-9f07-30f0a7776037@49.13.69.46:56078?security=reality&sni=canva.com&fp=chrome&pbk=SUCJ94wKPUdfkBJw8VnANql6kevueb6EyA71C3AfKFs&sid=bf44fc2c&type=tcp&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%2010
-vless://a25e8ff9-8650-4098-86af-b524e4ec72d8@5.75.236.28:443?security=tls&sni=admin2.pythonic-ai.com&fp=chrome&type=ws&host=admin2.pythonic-ai.com&path=%2fvYoLL0j3yXajA2rNVYyVkeSUkkM#%f0%9f%87%a9%f0%9f%87%aa%20Germany%2011
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYd1dWUm1PMmtLdTZxSzFYbGloM0xmZTZMaDNSUmE5cg==@213.183.44.17:8388#🇩🇪 Germany 12
-vless://8cd1b9a8-1f8c-45c3-be80-59094c2091f3@178.128.193.212:2003?security=tls&sni=de2-full.privateip.net&type=grpc&serviceName=GRPC&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%2013
-vless://5d1ecda2-5e3a-43f0-87d2-99c99a27a5ee@78.47.226.144:8180?type=grpc&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%2014
-vless://e4527384-4f20-4378-95dc-403996f12588@128.140.101.103:2087?security=reality&sni=dash.cloudflare.com&fp=chrome&pbk=GicA8fPbS9LksttApqa8gzOstomRFncKNoYGLCOqQF8&sid=fc805835&type=grpc&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%2015
-vless://691da42c-0a59-48e2-eb78-441b97ee14e4@146.19.233.85:443?security=tls&sni=de1.alphav2ray.link&type=grpc&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%2016
-vless://0736d5e1-75f3-4a88-9515-44baafd55c9f@91.107.156.81:57862?security=reality&sni=sourceforge.net&fp=chrome&pbk=s0LVL9Vj2lbZXoVGp_lNorm8-6Ggj0VAKMVnNHKl6Cg&sid=b83deb8f&type=grpc&serviceName=%40SobyV2ray&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%2017
-trojan://telegram-id-directvpn@3.77.84.199:22222?security=tls&sni=trojan.miwan.co.uk&alpn=http%2f1.1&type=tcp&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%2018
-vless://34c16b75-b73e-4d82-b2be-d7f50a43aece@91.107.143.113:56408?security=reality&sni=www.speedtest.net&fp=chrome&pbk=MdQsCkbcpakU03Wf3YQJfcBBr4jGw_G9T21CrB_qekU&sid=43abc944&type=grpc&serviceName=f&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%2019
-vless://955dc077-2cc6-4d88-9ce0-8cb27a821236@51.89.47.208:443?security=none&type=tcp&headerType=http&host=fast.com&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20Germany%2020
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@37.235.55.42:989#🇮🇲 Isle of Man 1
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@37.235.55.21:989#🇮🇲 Isle of Man 2
-trojan://645f0af0-dec8-48db-862f-82b6346408b4@114.45.76.8:18912?security=tls&sni=ty12t.twty.dynu.net&type=tcp&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%201
-trojan://6c7e728e-29d9-41be-8be0-1e56b536e840@118.167.70.36:18701?security=tls&sni=b23.ntbq.dynu.net&type=tcp&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%202
-trojan://645f0af0-dec8-48db-862f-82b6346408b4@61.228.179.198:19489?security=tls&sni=b22.ntbq.dynu.net&type=tcp&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%203
-trojan://6c7e728e-29d9-41be-8be0-1e56b536e840@114.37.118.153:9489?security=tls&sni=b13.ntbq.dynu.net&type=tcp&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%204
-trojan://645f0af0-dec8-48db-862f-82b6346408b4@220.141.141.120:13761?security=tls&sni=ty11t.twty.dynu.net&type=tcp&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%205
-vless://cbb9e797-c28d-41df-e300-655fd744c41e@212.33.206.111:21308?security=none&type=tcp&headerType=http&host=Speedtest.net&path=%2f#%f0%9f%87%ae%f0%9f%87%b7%20Iran%20(Islamic%20Republic%20of)%201
-vless://d14cf485-82d6-436e-f086-bd3d1f25c200@46.102.143.148:2086?security=none&type=tcp&headerType=http&path=%2f#%f0%9f%87%ae%f0%9f%87%b7%20Iran%20(Islamic%20Republic%20of)%202
-vless://578692db-b688-4a62-99e8-7e3e165c3fc1@37.32.12.94:9080?security=none&type=tcp&headerType=http&path=%2f#%f0%9f%87%ae%f0%9f%87%b7%20Iran%20(Islamic%20Republic%20of)%203
-vless://1a313183-2a66-4749-a90a-c7eb58bd2768@194.5.50.231:35688?security=none&type=ws&path=%2f#%f0%9f%87%ae%f0%9f%87%b7%20Iran%20(Islamic%20Republic%20of)%204
-vless://6aa6cb06-c20c-44a9-f22b-036407e37556@217.114.40.135:8443?security=none&type=tcp&headerType=http&host=ir1.node.check-host.net&serviceName=Telegram%3a%40Archive_Android%2cTelegram%3a%40Archive_Android%2cTelegram%3a%40Archive_Android%2cTelegram%3a%40Archive_Android%2cTelegram%3a%40Archive_Android%2cTelegram%3a%40Archive_Android%2cTelegram%3a%40Archive_Android%2cTelegram%3a%40Archive_Android%2cTelegram%3a%40Archive_Android%2cTelegram%3a%40Archive_Android%2cTelegram%3a%40Archive_Android%2cTelegram%3a%40Archive_Android&path=%2f#%f0%9f%87%ae%f0%9f%87%b7%20Iran%20(Islamic%20Republic%20of)%205
-vless://06afaaaf-c242-482c-9731-a1e239f25472@85.198.12.161:2093?security=none&type=tcp&path=%2f#%f0%9f%87%ae%f0%9f%87%b7%20Iran%20(Islamic%20Republic%20of)%206
-vless://04bb51b3-ea82-4f3a-b37c-a188d8c9acff@85.198.13.138:2093?security=none&type=tcp&path=%2f#%f0%9f%87%ae%f0%9f%87%b7%20Iran%20(Islamic%20Republic%20of)%207
-vless://96a234fc-4f8f-45e8-b78b-6d9231571e3c@139.177.189.164:40420?security=none&type=ws&host=imo.im&path=%2fFREE+-+by+tharuwa#%f0%9f%87%b8%f0%9f%87%ac%20Singapore%201
-vless://cd862f83-d8c2-445f-97e7-4f8ecd5b7939@139.162.62.79:443?security=tls&sni=sg-full.privateip.net&type=ws&path=%2fVLESS#%f0%9f%87%b8%f0%9f%87%ac%20Singapore%202
-trojan://ee2d164e-ee98-4f0b-ac21-1b5bdca4024f@128.199.183.69:20022?security=tls&sni=tls.qqwljs.buzz&type=tcp&path=%2f#%f0%9f%87%b8%f0%9f%87%ac%20Singapore%203
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUdlBUOG5UT1h1Q0dnQ2lrZm9tTEhm@207.148.70.162:54316#🇸🇬 Singapore 4
-trojan://ee2d164e-ee98-4f0b-ac21-1b5bdca4024f@157.245.149.232:20021?security=tls&sni=tls.qqwljs.buzz&type=tcp&path=%2f#%f0%9f%87%b8%f0%9f%87%ac%20Singapore%205
-trojan://ee2d164e-ee98-4f0b-ac21-1b5bdca4024f@128.199.183.65:20017?security=tls&sni=tls.qqwljs.buzz&type=tcp&path=%2f#%f0%9f%87%b8%f0%9f%87%ac%20Singapore%206
-vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7jwn4esIFNpbmdhcG9yZSA3IiwiYWRkIjoiMTkyLjEyNC4xNzYuMTU0IiwicG9ydCI6MzE1NDgsImlkIjoiMWUxYTMzODktOGVmNi00MTFkLWRjM2MtMTdiZWU5ZmQxOWU3IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjpudWxsLCJob3N0IjpudWxsLCJhbHBuIjpudWxsLCJwYXRoIjoiLyIsInRscyI6bnVsbCwic25pIjpudWxsLCJmcCI6bnVsbH0=
-ss://YWVzLTI1Ni1jZmI6VVdaUWVMUldua3Fna3NlcQ==@103.172.116.103:9032#🇸🇬 Singapore 8
-ss://YWVzLTI1Ni1jZmI6VE4yWXFnaHhlRkRLWmZMVQ==@103.172.116.103:9037#🇸🇬 Singapore 9
-ss://YWVzLTI1Ni1jZmI6d2pUdWdYM1p0SE1COWMzWg==@103.172.116.79:9057#🇸🇬 Singapore 10
-ss://YWVzLTI1Ni1jZmI6ZGFGWWFncURkQmRBNlZUWA==@103.172.116.103:9073#🇸🇬 Singapore 11
-ss://YWVzLTI1Ni1jZmI6VE4yWXFnaHhlRkRLWmZMVQ==@103.172.116.79:9037#🇸🇬 Singapore 12
-ss://YWVzLTI1Ni1jZmI6ZGFGWWFncURkQmRBNlZUWA==@103.172.116.79:9073#🇸🇬 Singapore 13
-ss://YWVzLTI1Ni1jZmI6UVdERHZWRTlucE51clFmQQ==@103.172.116.79:9026#🇸🇬 Singapore 14
-vless://690e0dfe-7360-4846-b164-cf0300ebd121@139.162.9.137:443?flow=xtls-rprx-vision&security=tls&sni=sg-freevmess.privateip.net&type=tcp&path=%2f#%f0%9f%87%b8%f0%9f%87%ac%20Singapore%2015
-ss://YWVzLTI1Ni1jZmI6WnBORERLUnU5TWFnTnZhZg==@103.172.116.79:9015#🇸🇬 Singapore 16
-ss://YWVzLTI1Ni1jZmI6WkVUNTlMRjZEdkNDOEtWdA==@103.172.116.79:9005#🇸🇬 Singapore 17
-ss://YWVzLTI1Ni1jZmI6VTZxbllSaGZ5RG1uOHNnbg==@103.172.116.79:9041#🇸🇬 Singapore 18
-ss://YWVzLTI1Ni1jZmI6d2ZMQzJ5N3J6WnlDbXV5dA==@103.172.116.79:9093#🇸🇬 Singapore 19
-ss://YWVzLTI1Ni1jZmI6RkFkVXZNSlVxNXZEZ0tFcQ==@103.172.116.79:9006#🇸🇬 Singapore 20
-ss://YWVzLTI1Ni1jZmI6Z1lDWVhma1VRRXMyVGFKUQ==@103.172.116.90:9038#🇸🇬 Singapore 21
-ss://YWVzLTI1Ni1jZmI6ZkcyYXJ0VW1IZk5UMmNYNw==@103.172.116.90:9018#🇸🇬 Singapore 22
-ss://YWVzLTI1Ni1jZmI6YzNOdEhKNXVqVjJ0R0Rmag==@103.172.116.94:9084#🇸🇬 Singapore 23
-ss://YWVzLTI1Ni1jZmI6cDl6NUJWQURIMllGczNNTg==@103.172.116.79:9040#🇸🇬 Singapore 24
-ss://YWVzLTI1Ni1jZmI6cnBnYk5uVTlyRERVNGFXWg==@103.172.116.79:9094#🇸🇬 Singapore 25
-ss://YWVzLTI1Ni1jZmI6ZjhucEtnTnpka3NzMnl0bg==@103.172.116.90:9088#🇸🇬 Singapore 26
-ss://YWVzLTI1Ni1jZmI6WFB0ekE5c0N1ZzNTUFI0Yw==@103.172.116.90:9025#🇸🇬 Singapore 27
-ss://YWVzLTI1Ni1jZmI6R2VyZWdldFI4Y3ZRSHpZcg==@103.172.116.79:9030#🇸🇬 Singapore 28
-ss://YWVzLTI1Ni1jZmI6U0JNN1I4ODNqQm1ucWU2Qw==@103.172.116.79:9053#🇸🇬 Singapore 29
-vless://630bbce1-d462-4637-99ae-fa003c10ac8c@192.46.229.127:443?security=tls&sni=sg2-full.privateip.net&type=ws&path=%2fVLESS#%f0%9f%87%b8%f0%9f%87%ac%20Singapore%2030
-ss://YWVzLTI1Ni1jZmI6R2VyZWdldFI4Y3ZRSHpZcg==@103.172.116.94:9030#🇸🇬 Singapore 31
-ss://YWVzLTI1Ni1jZmI6R0E5S3plRWd2ZnhOcmdtTQ==@103.172.116.90:9019#🇸🇬 Singapore 32
-ss://YWVzLTI1Ni1jZmI6ZkcyYXJ0VW1IZk5UMmNYNw==@103.172.116.94:9018#🇸🇬 Singapore 33
-ss://YWVzLTI1Ni1jZmI6RVhOM1MzZVFwakU3RUp1OA==@103.172.116.94:9027#🇸🇬 Singapore 34
-ss://YWVzLTI1Ni1jZmI6TnZTOE40VmY4cUFHUFNDTA==@103.172.116.90:9046#🇸🇬 Singapore 35
-ss://YWVzLTI1Ni1jZmI6WnBORERLUnU5TWFnTnZhZg==@103.172.116.90:9015#🇸🇬 Singapore 36
-ss://YWVzLTI1Ni1jZmI6d2ZMQzJ5N3J6WnlDbXV5dA==@103.172.116.90:9093#🇸🇬 Singapore 37
-ss://YWVzLTI1Ni1jZmI6THAyN3JxeUpxNzJiWnNxWA==@103.172.116.90:9045#🇸🇬 Singapore 38
-ss://YWVzLTI1Ni1jZmI6QndjQVVaazhoVUZBa0RHTg==@103.172.116.90:9031#🇸🇬 Singapore 39
-ss://YWVzLTI1Ni1jZmI6RVhOM1MzZVFwakU3RUp1OA==@103.172.116.90:9027#🇸🇬 Singapore 40
-ss://YWVzLTI1Ni1jZmI6S25KR2FkM0ZxVHZqcWJhWA==@103.172.116.90:9014#🇸🇬 Singapore 41
-ss://YWVzLTI1Ni1jZmI6VTZxbllSaGZ5RG1uOHNnbg==@103.172.116.90:9041#🇸🇬 Singapore 42
-ss://YWVzLTI1Ni1jZmI6ZjYzZ2c4RXJ1RG5Vcm16NA==@103.172.116.90:9010#🇸🇬 Singapore 43
-ss://YWVzLTI1Ni1jZmI6NFIzaFVmWjJGSGhEbU5jUA==@103.172.116.90:9061#🇸🇬 Singapore 44
-ss://YWVzLTI1Ni1jZmI6Rkc1ZGRMc01QYlY1Q3V0RQ==@103.172.116.90:9050#🇸🇬 Singapore 45
-ss://YWVzLTI1Ni1jZmI6SDlrR0ZJZmZJYw==@138.199.46.13:8443#🇸🇬 Singapore 46
-ss://YWVzLTI1Ni1jZmI6YUxwUXRmRVplNDQ1UXlIaw==@103.172.116.90:9098#🇸🇬 Singapore 47
-ss://YWVzLTI1Ni1jZmI6YmY3djMzNEtLRFYzWURoSA==@103.172.116.90:9070#🇸🇬 Singapore 48
-ss://YWVzLTI1Ni1jZmI6UzdLd1V1N3lCeTU4UzNHYQ==@103.172.116.94:9042#🇸🇬 Singapore 49
-ss://YWVzLTI1Ni1jZmI6SFNadXlKUWNXZThkeE5kRg==@103.172.116.94:9043#🇸🇬 Singapore 50
-ss://YWVzLTI1Ni1jZmI6cnBnYk5uVTlyRERVNGFXWg==@103.172.116.94:9094#🇸🇬 Singapore 51
-ss://YWVzLTI1Ni1jZmI6R2VyZWdldFI4Y3ZRSHpZcg==@103.172.116.90:9030#🇸🇬 Singapore 52
-vless://cd862f83-d8c2-445f-97e7-4f8ecd5b7939@139.162.62.79:2003?security=tls&sni=sg-full.privateip.net&type=grpc&serviceName=GRPC&path=%2f#%f0%9f%87%b8%f0%9f%87%ac%20Singapore%2053
-vless://630bbce1-d462-4637-99ae-fa003c10ac8c@192.46.229.127:2003?security=tls&sni=sg2-full.privateip.net&type=grpc&serviceName=GRPC&path=%2f#%f0%9f%87%b8%f0%9f%87%ac%20Singapore%2054
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxcTdSTkthSWsyd1lPOGZFUG1FWDB2V1E3VmErUVJUQQ==@91.192.81.21:8388#🇸🇬 Singapore 55
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@41.203.4.34:989#🇿🇦 South Africa 1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEaVBpZXR5b3J5@129.232.129.156:444#🇿🇦 South Africa 2
-vless://c30092ac-d91b-4be7-a00c-1c4b82d244b1@192.46.208.47:443?flow=xtls-rprx-vision&security=tls&sni=in-freevmess.privateip.net&type=tcp&path=%2f#%f0%9f%87%ae%f0%9f%87%b3%20India%201
-ss://YWVzLTI1Ni1nY206MWNXWU5RdEJFQzhkalc1Qktjb25RMFA5UE1oUnRkOWNCNUdMVnhBT3NDaz0=@159.65.151.227:2443#🇮🇳 India 2
-vless://ee187c79-7594-4a97-96bc-ff717c61a919@144.24.139.190:28852?security=none&type=ws&path=%2fa#%f0%9f%87%ae%f0%9f%87%b3%20India%203
-vless://6f7e7091-6f7f-4906-b499-bc0e5f844fae@172.232.250.121:443?security=tls&sni=id-full.privateip.net&type=ws&path=%2fVLESS#%f0%9f%87%ae%f0%9f%87%a9%20Indonesia%201
-vless://6f7e7091-6f7f-4906-b499-bc0e5f844fae@172.232.250.121:2003?security=tls&sni=id-full.privateip.net&type=grpc&serviceName=GRPC&path=%2f#%f0%9f%87%ae%f0%9f%87%a9%20Indonesia%202
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@103.163.218.2:989#🇻🇳 Viet Nam 1
+ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@38.107.226.146:8091#🇺🇸 United States of America 1
+ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@38.107.226.146:8080#🇺🇸 United States of America 2
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@38.107.226.146:2375#🇺🇸 United States of America 3
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.107.226.146:3306#🇺🇸 United States of America 4
+ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.107.226.146:5004#🇺🇸 United States of America 5
+ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.107.226.146:5003#🇺🇸 United States of America 6
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@38.107.226.146:2376#🇺🇸 United States of America 7
+ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.107.226.49:5004#🇺🇸 United States of America 8
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@38.107.226.49:2375#🇺🇸 United States of America 9
+ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@38.107.226.49:8090#🇺🇸 United States of America 10
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.107.226.49:7307#🇺🇸 United States of America 11
+ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.121.43.97:8881#🇺🇸 United States of America 12
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@38.121.43.65:2375#🇺🇸 United States of America 13
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@38.121.43.51:2376#🇺🇸 United States of America 14
+ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@38.121.43.97:8091#🇺🇸 United States of America 15
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.121.43.142:7306#🇺🇸 United States of America 16
+ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@38.121.43.142:4444#🇺🇸 United States of America 17
+ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@38.121.43.97:8080#🇺🇸 United States of America 18
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.68.134.85:7306#🇺🇸 United States of America 19
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@38.121.43.97:6697#🇺🇸 United States of America 20
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@38.68.134.9:6697#🇺🇸 United States of America 21
+ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@38.68.134.85:9102#🇺🇸 United States of America 22
+ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@38.68.134.85:9101#🇺🇸 United States of America 23
+ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@38.121.43.142:9101#🇺🇸 United States of America 24
+ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.68.134.9:5003#🇺🇸 United States of America 25
+ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.68.135.18:5003#🇺🇸 United States of America 26
+ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.68.134.85:5004#🇺🇸 United States of America 27
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.68.134.9:5601#🇺🇸 United States of America 28
+ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@38.68.135.18:9101#🇺🇸 United States of America 29
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@38.68.134.9:7001#🇺🇸 United States of America 30
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@38.68.134.9:2375#🇺🇸 United States of America 31
+trojan://telegram-id-directvpn@3.19.78.73:22222?sni=trojan.miwan.co.uk&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20United%20States%20of%20America%2032
+ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@38.68.134.9:9102#🇺🇸 United States of America 33
+ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@38.68.134.85:8008#🇺🇸 United States of America 34
+ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@38.68.134.9:8009#🇺🇸 United States of America 35
+ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@38.68.134.85:6379#🇺🇸 United States of America 36
+ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.68.134.9:8882#🇺🇸 United States of America 37
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.68.134.9:3306#🇺🇸 United States of America 38
+ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@38.68.135.18:8090#🇺🇸 United States of America 39
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.68.134.85:5601#🇺🇸 United States of America 40
+ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@38.68.134.85:443#🇺🇸 United States of America 41
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@38.68.134.85:7001#🇺🇸 United States of America 42
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.68.135.18:8119#🇺🇸 United States of America 43
+ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.68.134.85:5003#🇺🇸 United States of America 44
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@38.68.135.18:6697#🇺🇸 United States of America 45
+ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@38.68.135.18:4444#🇺🇸 United States of America 46
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@38.68.134.9:6679#🇺🇸 United States of America 47
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@38.68.135.18:7002#🇺🇸 United States of America 48
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@38.68.134.85:2375#🇺🇸 United States of America 49
+ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@38.68.134.9:6379#🇺🇸 United States of America 50
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.68.134.85:5600#🇺🇸 United States of America 51
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.68.134.85:5001#🇺🇸 United States of America 52
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@38.68.134.85:6697#🇺🇸 United States of America 53
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.68.135.18:7306#🇺🇸 United States of America 54
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.68.134.85:7307#🇺🇸 United States of America 55
+ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@38.68.134.85:5500#🇺🇸 United States of America 56
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.68.134.85:8119#🇺🇸 United States of America 57
+ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@38.68.135.18:5500#🇺🇸 United States of America 58
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.68.135.18:5601#🇺🇸 United States of America 59
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.68.134.85:8118#🇺🇸 United States of America 60
+ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@38.68.134.9:8008#🇺🇸 United States of America 61
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@38.68.134.85:6679#🇺🇸 United States of America 62
+ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@38.68.134.85:8090#🇺🇸 United States of America 63
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.68.134.9:5001#🇺🇸 United States of America 64
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.68.134.9:8119#🇺🇸 United States of America 65
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@38.68.134.9:7002#🇺🇸 United States of America 66
+ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@38.68.134.9:5500#🇺🇸 United States of America 67
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@167.88.62.104:2376#🇺🇸 United States of America 68
+ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@38.68.135.18:8009#🇺🇸 United States of America 69
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.68.134.9:8118#🇺🇸 United States of America 70
+trojan://bc22f8b6-a366-4c09-812f-64da5a6a15b1@us1.n305.dynu.net:16389?sni=us1.n305.dynu.net&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20United%20States%20of%20America%2071
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.68.134.85:3306#🇺🇸 United States of America 72
+ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@38.68.134.85:8009#🇺🇸 United States of America 73
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.68.135.18:3389#🇺🇸 United States of America 74
+ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@38.68.134.85:8080#🇺🇸 United States of America 75
+ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.75.136.135:5004#🇺🇸 United States of America 76
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.68.134.85:5000#🇺🇸 United States of America 77
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.75.136.135:3389#🇺🇸 United States of America 78
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@38.75.136.135:6697#🇺🇸 United States of America 79
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.68.134.9:3389#🇺🇸 United States of America 80
+ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@38.75.136.135:9101#🇺🇸 United States of America 81
+ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.75.136.135:5003#🇺🇸 United States of America 82
+vless://bc22f8b6-a366-4c09-812f-64da5a6a15b1@us1.n305.dynu.net:17231?flow=xtls-rprx-vision&security=reality&encryption=none&sni=itunes.apple.com&fp=edge&pbk=8xDPq2WRYlghOXQqB_5Naqdg0eGTE_k6YJOp5kKbawg&sid=3e534a1f&type=tcp&headerType=none&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20United%20States%20of%20America%2083
+ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.68.134.85:8882#🇺🇸 United States of America 84
+ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@38.75.136.135:5500#🇺🇸 United States of America 85
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.75.136.135:3306#🇺🇸 United States of America 86
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.68.134.9:5600#🇺🇸 United States of America 87
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.75.136.135:7306#🇺🇸 United States of America 88
+ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.75.136.135:8881#🇺🇸 United States of America 89
+ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@38.75.136.135:8091#🇺🇸 United States of America 90
+ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@38.75.136.135:443#🇺🇸 United States of America 91
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.75.136.135:5601#🇺🇸 United States of America 92
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@38.75.136.135:7001#🇺🇸 United States of America 93
+ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@38.68.134.9:8000#🇺🇸 United States of America 94
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.75.136.135:5001#🇺🇸 United States of America 95
+ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@38.68.134.85:8091#🇺🇸 United States of America 96
+ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@38.75.136.135:8080#🇺🇸 United States of America 97
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.75.136.135:5000#🇺🇸 United States of America 98
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.75.136.135:8119#🇺🇸 United States of America 99
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@38.75.136.135:2376#🇺🇸 United States of America 100
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@38.75.136.135:2375#🇺🇸 United States of America 101
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.75.136.135:8888#🇺🇸 United States of America 102
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@38.75.136.135:7002#🇺🇸 United States of America 103
+ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@38.75.136.135:9102#🇺🇸 United States of America 104
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.75.136.135:7307#🇺🇸 United States of America 105
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAxMDYiLCJhZGQiOiJ3d3cudmVsdmV0bW91bnRhaW4uc2hvcCIsInBvcnQiOjgwODAsImlkIjoiMjI4MjZiNDQtNWMxYS00YjRiLWRiYWEtODNhMmU4YmQ5NWYwIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOm51bGwsImhvc3QiOiJ3d3cudmVsdmV0bW91bnRhaW4uc2hvcCIsImFscG4iOm51bGwsInBhdGgiOiIvIiwidGxzIjoiIiwic25pIjpudWxsLCJmcCI6bnVsbH0=
+ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@38.75.136.135:8090#🇺🇸 United States of America 107
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.143.66.87:5000#🇺🇸 United States of America 108
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@38.143.66.87:6697#🇺🇸 United States of America 109
+ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.75.136.135:8882#🇺🇸 United States of America 110
+ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@38.143.66.87:9102#🇺🇸 United States of America 111
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.143.66.87:3389#🇺🇸 United States of America 112
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.143.66.87:3306#🇺🇸 United States of America 113
+vless://fbc4a8ed-a443-4574-828a-6ce179d164a1@46.21.157.239:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.epochconverter.com&fp=firefox&pbk=SaNnoxn-kfMgbLYKEmCLK_J85h2JZ3Evu4_a879mzRQ&sid=33e7904c&type=tcp&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20United%20States%20of%20America%20114
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAxMTUiLCJhZGQiOiJtdXJpZWwubWFrZXVwIiwicG9ydCI6NDQzLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjpudWxsLCJob3N0IjoibXVyaWVsLm1ha2V1cCIsImFscG4iOm51bGwsInBhdGgiOiIvbGlua3Z3cyIsInRscyI6InRscyIsInNuaSI6bnVsbCwiZnAiOm51bGx9
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAxMTYiLCJhZGQiOiJtdXJpZWwubWFrZXVwIiwicG9ydCI6NDQzLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImFpZCI6IjAiLCJzY3kiOm51bGwsIm5ldCI6IndzIiwidHlwZSI6bnVsbCwiaG9zdCI6Im11cmllbC5tYWtldXAiLCJhbHBuIjpudWxsLCJwYXRoIjoiL2xpbmt2d3MiLCJ0bHMiOiJ0bHMiLCJzbmkiOm51bGwsImZwIjpudWxsfQ==
+trojan://578547e6-f06f-4a04-8283-4a13a56c9a82@us03.421421.xyz:20230?sni=421421.xyz&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20United%20States%20of%20America%20117
+ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@38.75.136.135:6379#🇺🇸 United States of America 118
+ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@38.75.136.135:8008#🇺🇸 United States of America 119
+ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@167.88.61.175:5003#🇺🇸 United States of America 120
+ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@167.88.61.175:8080#🇺🇸 United States of America 121
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@167.88.61.175:5000#🇺🇸 United States of America 122
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@167.88.61.175:8118#🇺🇸 United States of America 123
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAxMjQiLCJhZGQiOiIxNjUuMS43OS4yNTIiLCJwb3J0IjoxOTM0NCwiaWQiOiJhYzlkZDQwNy1kMDUzLTRjNjctZTQ0ZS0zMWQ2YTU4MzNmZjQiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6bnVsbCwiaG9zdCI6InNvZS5jaGVlc2hvbi5jeW91IiwiYWxwbiI6bnVsbCwicGF0aCI6Ii9hYzlkZDQwNyIsInRscyI6IiIsInNuaSI6bnVsbCwiZnAiOm51bGx9
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@167.88.61.175:6679#🇺🇸 United States of America 125
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@167.88.61.175:8119#🇺🇸 United States of America 126
+ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@38.143.66.87:6379#🇺🇸 United States of America 127
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@167.88.61.175:7307#🇺🇸 United States of America 128
+ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@167.88.61.175:5004#🇺🇸 United States of America 129
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAxMzAiLCJhZGQiOiJraXR0aXkuc2JzIiwicG9ydCI6NDQzLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjpudWxsLCJob3N0Ijoia2l0dGl5LnNicyIsImFscG4iOm51bGwsInBhdGgiOiIvbGlua3Z3cyIsInRscyI6InRscyIsInNuaSI6bnVsbCwiZnAiOm51bGx9
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAxMzEiLCJhZGQiOiJraXR0aXkuc2JzIiwicG9ydCI6NDQzLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImFpZCI6IjAiLCJzY3kiOm51bGwsIm5ldCI6IndzIiwidHlwZSI6bnVsbCwiaG9zdCI6ImtpdHRpeS5zYnMiLCJhbHBuIjpudWxsLCJwYXRoIjoiL2xpbmt2d3MiLCJ0bHMiOiJ0bHMiLCJzbmkiOm51bGwsImZwIjpudWxsfQ==
+ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@167.88.61.175:6379#🇺🇸 United States of America 132
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAxMzMiLCJhZGQiOiJ1czY1Lm5ldGZpbHgubGl2ZSIsInBvcnQiOjgwLCJpZCI6IjYwZjEyNDM1LWJiNTUtNGRhMi1jYjdkLTRmZWEzNGVjZmEzNyIsImFpZCI6IjAiLCJzY3kiOm51bGwsIm5ldCI6IndzIiwidHlwZSI6bnVsbCwiaG9zdCI6InVzNjUubmV0ZmlseC5saXZlIiwiYWxwbiI6bnVsbCwicGF0aCI6Ii8iLCJ0bHMiOiIiLCJzbmkiOm51bGwsImZwIjpudWxsfQ==
+ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@167.88.61.175:8090#🇺🇸 United States of America 134
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAxMzUiLCJhZGQiOiJ5b3UyLmZhc3RpcmFuLmluZm8iLCJwb3J0Ijo4MCwiaWQiOiI5YzlkNTRlNS1iMjEzLTRlNWQtYTZmZS00Y2Y0MGIyYjJiYWYiLCJhaWQiOiIwIiwic2N5IjoiY2hhY2hhMjAtcG9seTEzMDUiLCJuZXQiOiJ3cyIsInR5cGUiOm51bGwsImhvc3QiOiJ5Mi5mYXN0aXJhbi5pbmZvIiwiYWxwbiI6bnVsbCwicGF0aCI6Ii9SNXltbWhBRkFnNWZYUU9hUE9aVnEiLCJ0bHMiOiIiLCJzbmkiOm51bGwsImZwIjpudWxsfQ==
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@167.88.61.175:5001#🇺🇸 United States of America 136
+ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@167.88.61.175:5500#🇺🇸 United States of America 137
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@167.88.61.175:3306#🇺🇸 United States of America 138
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@167.88.61.175:2375#🇺🇸 United States of America 139
+ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@167.88.61.175:443#🇺🇸 United States of America 140
+ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@167.88.61.175:8008#🇺🇸 United States of America 141
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAxNDIiLCJhZGQiOiJDQS5wbHNiYWNrLnRvcCIsInBvcnQiOjM1MzE4LCJpZCI6IjYxMjllZGE1LTk5ZGEtNGMwNy1kZGIwLTBjODMwZWU4OWJiMyIsImFpZCI6IjAiLCJzY3kiOm51bGwsIm5ldCI6InRjcCIsInR5cGUiOm51bGwsImhvc3QiOiJDQS5wbHNiYWNrLnRvcCIsImFscG4iOm51bGwsInBhdGgiOiIvIiwidGxzIjoidGxzIiwic25pIjpudWxsLCJmcCI6bnVsbH0=
+ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@167.88.61.175:9102#🇺🇸 United States of America 143
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@167.88.61.175:5600#🇺🇸 United States of America 144
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@167.88.61.175:8888#🇺🇸 United States of America 145
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAxNDYiLCJhZGQiOiJDQS5wbHNiYWNrLnRvcCIsInBvcnQiOjM1MzE4LCJpZCI6IjYxMjllZGE1LTk5ZGEtNGMwNy1kZGIwLTBjODMwZWU4OWJiMyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6bnVsbCwiaG9zdCI6bnVsbCwiYWxwbiI6bnVsbCwicGF0aCI6Ii8iLCJ0bHMiOiJ0bHMiLCJzbmkiOiIiLCJmcCI6bnVsbH0=
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@167.88.61.175:7306#🇺🇸 United States of America 147
+ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@167.88.61.175:8881#🇺🇸 United States of America 148
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAxNDkiLCJhZGQiOiJ2aXI3LjI1NjcwOTM5NC54eXoiLCJwb3J0Ijo0NDMsImlkIjoiYzJmNDRhODctMmFmMS00ZTgwLWEzMDctOGZmOTMyZTMzZTM0IiwiYWlkIjoiMCIsInNjeSI6bnVsbCwibmV0Ijoid3MiLCJ0eXBlIjpudWxsLCJob3N0IjoidmlyNy4yNTY3MDkzOTQueHl6IiwiYWxwbiI6bnVsbCwicGF0aCI6Ii9UQjJvbU5xMmVHWkdnVCIsInRscyI6InRscyIsInNuaSI6bnVsbCwiZnAiOm51bGx9
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@142.202.48.99:2375#🇺🇸 United States of America 150
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAxNTEiLCJhZGQiOiJ2aXI3LjI1NjcwOTM5NC54eXoiLCJwb3J0Ijo0NDMsImlkIjoiYzJmNDRhODctMmFmMS00ZTgwLWEzMDctOGZmOTMyZTMzZTM0IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOm51bGwsImhvc3QiOiJ2aXI3LjI1NjcwOTM5NC54eXoiLCJhbHBuIjpudWxsLCJwYXRoIjoiL1RCMm9tTnEyZUdaR2dUIiwidGxzIjoidGxzIiwic25pIjpudWxsLCJmcCI6bnVsbH0=
+vless://6826532d-6b3e-4427-ab1f-95c4e70c1c4c@104.21.28.8:2053?security=tls&sni=free.riflvpn.tech&fp=chrome&type=grpc&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20United%20States%20of%20America%20152
+ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@142.202.48.99:5003#🇺🇸 United States of America 153
+vmess://eyJ2IjpudWxsLCJwcyI6IvCfh7rwn4e4IFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYSAxNTQiLCJhZGQiOiJkZS0wMS5jbG91ZGxpb24ubWUiLCJwb3J0Ijo4MDgwLCJpZCI6IjcwNjY2Nzc2LTRlOWYtNDM1MC1iM2YwLWFmYWZmNmE3MGRiMCIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjpudWxsLCJob3N0IjoiZGUtMDEuY2xvdWRsaW9uLm1lIiwiYWxwbiI6bnVsbCwicGF0aCI6Ii8iLCJ0bHMiOiIiLCJzbmkiOm51bGwsImZwIjpudWxsfQ==
+ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@142.202.48.99:5004#🇺🇸 United States of America 155
+trojan://31583130-de1f-44ce-a433-1dbb108e1846@it-full.privateip.net:443?security=tls&path=%2f#%f0%9f%87%ae%f0%9f%87%b9%20Italy%201
+trojan://31583130-de1f-44ce-a433-1dbb108e1846@95.164.46.235:443?security=tls&sni=it-full.privateip.net&path=%2f#%f0%9f%87%ae%f0%9f%87%b9%20Italy%202
+trojan://31583130-de1f-44ce-a433-1dbb108e1846@95.164.46.235:443?security=tls&sni=it-full.privateip.net&type=tcp&path=%2f#%f0%9f%87%ae%f0%9f%87%b9%20Italy%203
+ss://YWVzLTEyOC1nY206ZTI5Y2I4NjMtZGE1Zi00YmE5LTk1NWUtYjNhNzc3YjBiN2Nk@sdv3-jp.04xvkr9ed1.com:6619#🇨🇳 China 1
+ss://YWVzLTEyOC1nY206ZTI5Y2I4NjMtZGE1Zi00YmE5LTk1NWUtYjNhNzc3YjBiN2Nk@sdv3-jp.04xvkr9ed1.com:6615#🇨🇳 China 2
+ss://YWVzLTEyOC1nY206ZTI5Y2I4NjMtZGE1Zi00YmE5LTk1NWUtYjNhNzc3YjBiN2Nk@sdv3-jp.04xvkr9ed1.com:6620#🇨🇳 China 3
+ss://YWVzLTEyOC1nY206ZTI5Y2I4NjMtZGE1Zi00YmE5LTk1NWUtYjNhNzc3YjBiN2Nk@sdv3-jp.04xvkr9ed1.com:6616#🇨🇳 China 4
+ss://YWVzLTEyOC1nY206ZTI5Y2I4NjMtZGE1Zi00YmE5LTk1NWUtYjNhNzc3YjBiN2Nk@sdv3-jp.04xvkr9ed1.com:6618#🇨🇳 China 5
+ss://YWVzLTEyOC1nY206ZTI5Y2I4NjMtZGE1Zi00YmE5LTk1NWUtYjNhNzc3YjBiN2Nk@sdv3-jp.04xvkr9ed1.com:6617#🇨🇳 China 6
+ss://YWVzLTEyOC1nY206ZTI5Y2I4NjMtZGE1Zi00YmE5LTk1NWUtYjNhNzc3YjBiN2Nk@sdv3-us.04xvkr9ed1.com:6628#🇨🇳 China 7
+ss://YWVzLTEyOC1nY206ZTI5Y2I4NjMtZGE1Zi00YmE5LTk1NWUtYjNhNzc3YjBiN2Nk@sdv3-us.04xvkr9ed1.com:6629#🇨🇳 China 8
+ss://YWVzLTEyOC1nY206ZTI5Y2I4NjMtZGE1Zi00YmE5LTk1NWUtYjNhNzc3YjBiN2Nk@sdv3-us.04xvkr9ed1.com:6632#🇨🇳 China 9
+ss://YWVzLTEyOC1nY206ZTI5Y2I4NjMtZGE1Zi00YmE5LTk1NWUtYjNhNzc3YjBiN2Nk@sdv3-us.04xvkr9ed1.com:6631#🇨🇳 China 10
+ss://YWVzLTEyOC1nY206ZTI5Y2I4NjMtZGE1Zi00YmE5LTk1NWUtYjNhNzc3YjBiN2Nk@sdv3-us.04xvkr9ed1.com:6630#🇨🇳 China 11
+ss://YWVzLTEyOC1nY206ZTI5Y2I4NjMtZGE1Zi00YmE5LTk1NWUtYjNhNzc3YjBiN2Nk@sdv3-us.04xvkr9ed1.com:6627#🇨🇳 China 12
+vless://bc22f8b6-a366-4c09-812f-64da5a6a15b1@b33.ntbq.dynu.net:8443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=itunes.apple.com&fp=firefox&pbk=C9OFkwBgNxDtnxahxhsyN61KyA4BghvQFWZ8DE0gg0c&sid=9a947b62&type=tcp&headerType=none&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%201
+vless://bc22f8b6-a366-4c09-812f-64da5a6a15b1@b25.ntbq.dynu.net:4433?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.acer.com&fp=chrome&pbk=S48HROZ4R5JFMUt7DwNUYcDzq-3wGH4F3rrWG7skOk4&sid=692bbdcf&type=tcp&headerType=none&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%202
+vless://bc22f8b6-a366-4c09-812f-64da5a6a15b1@ty15.twty.dynu.net:6642?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.acer.com&fp=edge&pbk=mwAjI-9mycpV-XFjOPqvK7x3x7SDOWEaTPKeAiw-CwQ&sid=7316a598&type=tcp&headerType=none&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%203
+vless://bc22f8b6-a366-4c09-812f-64da5a6a15b1@ty14.twty.dynu.net:5442?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.yam.com&fp=safari&pbk=oKRo9OgFF_kxCUvvIzNe2lOUTmJxQQd-cc7xJxO65SY&sid=c4478c3b&type=tcp&headerType=none&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%204
+trojan://bc22f8b6-a366-4c09-812f-64da5a6a15b1@b24.ntbq.dynu.net:3271?sni=b24.ntbq.dynu.net&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%205
+trojan://bc22f8b6-a366-4c09-812f-64da5a6a15b1@ty11t.twty.dynu.net:13761?sni=ty11t.twty.dynu.net&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%206
+vless://bc22f8b6-a366-4c09-812f-64da5a6a15b1@ty13.twty.dynu.net:4434?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.acer.com&fp=firefox&pbk=sQVkt_yAEYYPtkhZzkGd4pqx11PaJ0mXPBl08du_rCA&sid=b5fde1eb&type=tcp&headerType=none&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%207
+trojan://bc22f8b6-a366-4c09-812f-64da5a6a15b1@b12.ntbq.dynu.net:9755?sni=b12.ntbq.dynu.net&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%208
+trojan://bc22f8b6-a366-4c09-812f-64da5a6a15b1@ty12t.twty.dynu.net:18912?sni=ty12t.twty.dynu.net&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%209
+trojan://08c8768a-31ee-447e-81aa-845399553dbf@ty11t.twty.dynu.net:13761?security=tls&sni=ty11t.twty.dynu.net&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%2010
+vless://bc22f8b6-a366-4c09-812f-64da5a6a15b1@b31.ntbq.dynu.net:8443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.travelrich.com.tw&fp=chrome&pbk=p4iAY1RmMB3ueUCwoPEhojHlNILsKmmdcgveADTyn1k&sid=8cb65cee&type=tcp&headerType=none&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%2011
+trojan://bc22f8b6-a366-4c09-812f-64da5a6a15b1@b13.ntbq.dynu.net:9489?sni=b13.ntbq.dynu.net&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%2012
+vless://bc22f8b6-a366-4c09-812f-64da5a6a15b1@b34.ntbq.dynu.net:8443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.tsmc.com&fp=chrome&pbk=UJIFjxx5rKAtp3l74OdtnWCJ7CiJkBZJNQwoxoa8VSM&sid=7c2944d4&type=tcp&headerType=none&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%2013
+vless://bc22f8b6-a366-4c09-812f-64da5a6a15b1@b32.ntbq.dynu.net:8443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=icook.tw&fp=chrome&pbk=FyDM2bxXvA9vZYEIKwltAlLHen1Ld-a170e_pyWWVns&sid=b81c7550&type=tcp&headerType=none&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%2014
+vless://bc22f8b6-a366-4c09-812f-64da5a6a15b1@nbq14.ntbq.dynu.net:4433?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.yam.com&fp=chrome&pbk=GxqaLfP80Z3lt4rB-y1p3XQjexXCHAhOLQn9c0EdW04&sid=2d6c13f3&type=tcp&headerType=none&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%2015
+vless://bc22f8b6-a366-4c09-812f-64da5a6a15b1@b11.ntbq.dynu.net:6545?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.yam.com&fp=edge&pbk=Oz2AGZpEVtoZZ1S_kZ4TW5RILTlQCm29WfHSW88CCC4&sid=73fc268b&type=tcp&headerType=none&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%2016
+trojan://bc22f8b6-a366-4c09-812f-64da5a6a15b1@b22.ntbq.dynu.net:19489?sni=b22.ntbq.dynu.net&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%2017
+trojan://bc22f8b6-a366-4c09-812f-64da5a6a15b1@b23.ntbq.dynu.net:18701?sni=b23.ntbq.dynu.net&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%2018
+trojan://bc22f8b6-a366-4c09-812f-64da5a6a15b1@c12.twtc.dynu.net:13911?sni=c12.twtc.dynu.net&type=grpc&serviceName=TRTC2&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%2019
+trojan://bc22f8b6-a366-4c09-812f-64da5a6a15b1@c11.twtc.dynu.net:12388?sni=c11.twtc.dynu.net&type=grpc&serviceName=TRTC1&path=%2f#%f0%9f%87%b9%f0%9f%87%bc%20Taiwan%20(Province%20of%20China)%2020
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@13.250.104.109:443#🇸🇬 Singapore 1
+ss://YWVzLTI1Ni1jZmI6THAyN3JxeUpxNzJiWnNxWA==@103.172.116.79:9045#🇸🇬 Singapore 2
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@18.143.132.154:443#🇸🇬 Singapore 3
+trojan://578547e6-f06f-4a04-8283-4a13a56c9a82@sg05.421421.xyz:20230?sni=421421.xyz&path=%2f#%f0%9f%87%b8%f0%9f%87%ac%20Singapore%204
+ss://YWVzLTI1Ni1jZmI6dWVMWFZrdmg0aGNraEVyUQ==@103.172.116.103:9060#🇸🇬 Singapore 5
+ss://YWVzLTI1Ni1jZmI6ck5CZk51dUFORkNBazdLQg==@103.172.116.103:9056#🇸🇬 Singapore 6
+ss://YWVzLTI1Ni1jZmI6QndjQVVaazhoVUZBa0RHTg==@103.172.116.103:9031#🇸🇬 Singapore 7
+vless://578547e6-f06f-4a04-8283-4a13a56c9a82@sg04.421421.xyz:20230?flow=xtls-rprx-vision&security=reality&encryption=none&sni=api.push.apple.com&fp=chrome&pbk=gKQ1iax36vjbOYLKLveiSn_OnlBVAf3ecHLpQnrC4jw&sid=a7464bff&type=tcp&headerType=none&path=%2f#%f0%9f%87%b8%f0%9f%87%ac%20Singapore%208
+ss://YWVzLTI1Ni1jZmI6Y3A4cFJTVUF5TGhUZlZXSA==@103.172.116.103:9064#🇸🇬 Singapore 9
+vless://2e660d96-f2d2-43c0-aa62-bf92edbac0cf@sg04.421421.xyz:20230?flow=xtls-rprx-vision&security=reality&encryption=none&sni=api.push.apple.com&fp=chrome&pbk=gKQ1iax36vjbOYLKLveiSn_OnlBVAf3ecHLpQnrC4jw&sid=a7464bff&type=tcp&headerType=none&path=%2f#%f0%9f%87%b8%f0%9f%87%ac%20Singapore%2010
+ss://YWVzLTI1Ni1jZmI6S0JHalpZY3k0U3lSU2htQQ==@103.172.116.79:9044#🇸🇬 Singapore 11
+ss://YWVzLTI1Ni1jZmI6VVdaUWVMUldua3Fna3NlcQ==@103.172.116.79:9032#🇸🇬 Singapore 12
+ss://YWVzLTI1Ni1jZmI6TnZTOE40VmY4cUFHUFNDTA==@103.172.116.103:9046#🇸🇬 Singapore 13
+ss://YWVzLTI1Ni1jZmI6WnBORERLUnU5TWFnTnZhZg==@103.172.116.79:9015#🇸🇬 Singapore 14
+ss://YWVzLTI1Ni1jZmI6TnZTOE40VmY4cUFHUFNDTA==@103.172.116.79:9046#🇸🇬 Singapore 15
+ss://YWVzLTI1Ni1jZmI6YTNHRll0MzZTbTgyVnlzOQ==@103.172.116.79:9000#🇸🇬 Singapore 16
+ss://YWVzLTI1Ni1jZmI6VE4yWXFnaHhlRkRLWmZMVQ==@103.172.116.79:9037#🇸🇬 Singapore 17
+ss://YWVzLTI1Ni1jZmI6Y3A4cFJTVUF5TGhUZlZXSA==@103.172.116.79:9064#🇸🇬 Singapore 18
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@54.251.73.151:443#🇸🇬 Singapore 19
+vless://2e660d96-f2d2-43c0-aa62-bf92edbac0cf@jp02.421421.xyz:20230?flow=xtls-rprx-vision&security=reality&encryption=none&sni=api.push.apple.com&fp=chrome&pbk=gKQ1iax36vjbOYLKLveiSn_OnlBVAf3ecHLpQnrC4jw&sid=a7464bff&type=tcp&headerType=none&path=%2f#%f0%9f%87%af%f0%9f%87%b5%20Japan%201
+vless://578547e6-f06f-4a04-8283-4a13a56c9a82@jp02.421421.xyz:20230?flow=xtls-rprx-vision&security=reality&encryption=none&sni=api.push.apple.com&fp=chrome&pbk=gKQ1iax36vjbOYLKLveiSn_OnlBVAf3ecHLpQnrC4jw&sid=a7464bff&type=tcp&headerType=none&path=%2f#%f0%9f%87%af%f0%9f%87%b5%20Japan%202
+vless://578547e6-f06f-4a04-8283-4a13a56c9a82@jp01.421421.xyz:20230?flow=xtls-rprx-vision&security=reality&encryption=none&sni=api.push.apple.com&fp=chrome&pbk=gKQ1iax36vjbOYLKLveiSn_OnlBVAf3ecHLpQnrC4jw&sid=a7464bff&type=tcp&headerType=none&path=%2f#%f0%9f%87%af%f0%9f%87%b5%20Japan%203
+vless://2e660d96-f2d2-43c0-aa62-bf92edbac0cf@jp01.421421.xyz:20230?flow=xtls-rprx-vision&security=reality&encryption=none&sni=api.push.apple.com&fp=chrome&pbk=gKQ1iax36vjbOYLKLveiSn_OnlBVAf3ecHLpQnrC4jw&sid=a7464bff&type=tcp&headerType=none&path=%2f#%f0%9f%87%af%f0%9f%87%b5%20Japan%204
+trojan://telegram-id-directvpn@15.157.88.42:22222?sni=trojan.miwan.co.uk&path=%2f#%f0%9f%87%a8%f0%9f%87%a6%20Canada%201
+vless://a6292090-afe1-4640-97a7-4f1d1d877cf1@64.68.192.77:443?security=tls&sni=hdfy8c1.foriran.me&alpn=h2&fp=chrome&type=grpc&serviceName=PvSPM3IC5KffvrsN6rqb&path=%2f#%f0%9f%87%a8%f0%9f%87%a6%20Canada%202
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoelhuN1VZb3A1bXNucGYzRHl6Y1lU@51.143.138.98:47763#🇬🇧 United Kingdom of Great Britain and Northern Ireland 1
+trojan://telegram-id-privatevpns@18.171.64.15:22222?sni=trojan.miwan.co.uk&path=%2f#%f0%9f%87%ac%f0%9f%87%a7%20United%20Kingdom%20of%20Great%20Britain%20and%20Northern%20Ireland%202
+trojan://telegram-id-directvpn@13.43.246.34:22222?sni=trojan.miwan.co.uk&type=tcp&path=%2f#%f0%9f%87%ac%f0%9f%87%a7%20United%20Kingdom%20of%20Great%20Britain%20and%20Northern%20Ireland%203
+ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@145.239.6.202:4444#🇬🇧 United Kingdom of Great Britain and Northern Ireland 4
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxazF4TTd3NW9OMFdFTE45S2xmS1NM@52.178.196.100:65318#🇮🇪 Ireland 1
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@213.156.137.67:989#🇰🇿 Kazakhstan 1
+trojan://62011b3d-2706-4a97-98b7-9986003c5fe0@kz-full.privateip.net:443?security=tls&path=%2f#%f0%9f%87%b0%f0%9f%87%bf%20Kazakhstan%202
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@192.36.27.94:989#🇩🇰 Denmark 1
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@192.36.27.116:989#🇩🇰 Denmark 2
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@51.77.53.200:7002#🇵🇱 Poland 1
+ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk=@51.77.53.200:9102#🇵🇱 Poland 2
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@51.77.53.200:5001#🇵🇱 Poland 3
+vless://99e3d5d9-6e55-4a04-b2bc-3a90edc85490@kr-seoul-oracle-86a6ed.ip1.shop:20050?flow=xtls-rprx-vision&security=reality&encryption=none&sni=s0.awsstatic.com&fp=chrome&pbk=-DzfQh5pVlGmJpvr-fluZkzTGXsZ-ok15raVKxCSf2M&sid=7f125185&type=tcp&path=%2f#%f0%9f%87%b0%f0%9f%87%b7%20Korea%20(the%20Republic%20of)%201
+trojan://e2486b91-71a6-421b-9d53-3c080fb0edb8@es-full.privateip.net:443?security=tls&path=%2f#%f0%9f%87%aa%f0%9f%87%b8%20Spain%201
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@170.80.111.5:989#🇬🇹 Guatemala 1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3NWRyQUw3UGZDSXdRMnljVXVvRHNWMkxz@212.113.106.243:13022#🇦🇹 Austria 1
+trojan://01f378e3-16fb-41ba-be7e-e23a7813275e@tr-full.privateip.net:443?security=tls&path=%2f#%f0%9f%87%b9%f0%9f%87%b7%20Turkiye%201
+ss://YWVzLTI1Ni1jZmI6VTZxbllSaGZ5RG1uOHNnbg==@45.89.52.66:9041#🇹🇷 Turkiye 2
+ss://YWVzLTI1Ni1jZmI6VE4yWXFnaHhlRkRLWmZMVQ==@45.89.52.66:9037#🇹🇷 Turkiye 3
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@46.183.185.37:989#🇲🇰 North Macedonia 1
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@138.59.16.146:989#🇨🇷 Costa Rica 1
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@192.71.249.78:989#🇧🇪 Belgium 1
+trojan://wkmY1R4EcP@45.32.148.182:443?security=tls&sni=z-v2-002805.kailib.com&path=%2f#%f0%9f%87%ab%f0%9f%87%b7%20France%201
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@146.185.248.22:989#🇦🇲 Armenia 1
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.255.123.90:989#🇳🇬 Nigeria 1
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@192.121.87.147:989#🇲🇩 Moldova (the Republic of) 1
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@194.71.126.31:989#🇷🇸 Serbia 1
