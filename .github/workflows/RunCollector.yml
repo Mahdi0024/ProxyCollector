@@ -23,6 +23,8 @@ jobs:
       V2rayFormatResultPath: sub/proxies.txt
       SingboxFormatResultPath: sub/singbox.txt
       Sources: |
+        https://raw.githubusercontent.com/Surfboardv2ray/Subs/main/Realm
+        https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed
         https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_iOS.txt
         https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes
         https://raw.githubusercontent.com/Vauth/node/main/Pro
@@ -160,7 +162,7 @@ jobs:
 
     - name: Install sing-box
       run: |
-        wget https://github.com/SagerNet/sing-box/releases/download/v1.6.4/sing-box_1.6.4_linux_amd64v3.deb
+        curl -sLO https://github.com/SagerNet/sing-box/releases/download/v1.8.14/sing-box_1.8.14_linux_amd64v3.deb
         sudo dpkg -i sing-box_1.6.4_linux_amd64v3.deb
         sudo apt-get install -f
         
