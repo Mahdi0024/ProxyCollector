@@ -15,7 +15,7 @@ jobs:
 
     env:
       GithubApiToken: ${{secrets.GH_API_TOKEN}}
-      GithubUser: demarcush
+      GithubUser: Mahdi0024
       GithubRepo: ProxyCollector
       Timeout: 10000
       MaxThreadCount: 96
