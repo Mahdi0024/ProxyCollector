@@ -218,7 +218,7 @@ public class ProxyCollector
             _config.MaxThreadCount,
             _config.Timeout,
             1024,
-            "https://www.4chan.org/robots.txt");
+            "https://www.google.com/generate_204");
 
         var workingResults = new ConcurrentBag<UrlTestResult>();
         await tester.ParallelTestAsync(profiles, new Progress<UrlTestResult>((result =>
