@@ -12,6 +12,7 @@ using SingBoxLib.Runtime;
 using SingBoxLib.Runtime.Testing;
 using System.Collections.Concurrent;
 using System.Text;
+using System.Web;
 
 namespace ProxyCollector.Collector;
 
@@ -173,7 +174,10 @@ public class ProxyCollector
         var finalResult = new StringBuilder();
         foreach (var profile in profiles)
         {
+            var profileName = profile.Name;
+            profile.Name = HttpUtility.UrlPathEncode(profile.Name);
             finalResult.AppendLine(profile.ToProfileUrl());
+            profile.Name = profileName;
         }
         await CommitFileToGithub(finalResult.ToString(), _config.V2rayFormatResultPath);
     }
