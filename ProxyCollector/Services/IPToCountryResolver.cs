@@ -27,8 +27,25 @@ public sealed class IPToCountryResolver
 
     public async Task<CountryInfo> GetCountry(IPAddress ip, CancellationToken cancellationToken = default)
     {
-        var response = await _httpClient.GetStringAsync($"https://api.iplocation.net/?ip={ip}");
-        var ipInfo = JsonConvert.DeserializeObject<IpLocationResponse>(response)!;
+        string? response = null;
+        for (int i = 1; i <= 5; i++)
+        {
+            try
+            {
+                response = await _httpClient.GetStringAsync($"https://api.iplocation.net/?ip={ip}");
+                break;
+            }
+            catch (HttpRequestException)
+            {
+                if(i == 5)
+                {
+                    throw;
+                }
+                await Task.Delay(TimeSpan.FromSeconds(20));
+            }
+        }
+
+        var ipInfo = JsonConvert.DeserializeObject<IpLocationResponse>(response!)!;
 
         return new CountryInfo
         {
