@@ -14,9 +14,9 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      GithubApiToken: ${{secrets.GH_API_TOKEN}}
-      GithubUser: Mahdi0024
-      GithubRepo: ProxyCollector
+      GithubApiToken: ${{ secrets.GITHUB_TOKEN }}
+      GithubUser: ${{ GITHUB_REPOSITORY_OWNER }}
+      GithubRepo: ${{ GITHUB_REPOSITORY_NAME }}
       Timeout: 5000
       MaxThreadCount: 96
       SingboxPath: sing-box
