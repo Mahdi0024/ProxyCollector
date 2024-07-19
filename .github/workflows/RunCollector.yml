@@ -17,12 +17,13 @@ jobs:
       GithubApiToken: ${{secrets.GH_API_TOKEN}}
       GithubUser: Mahdi0024
       GithubRepo: ProxyCollector
-      Timeout: 10000
+      Timeout: 5000
       MaxThreadCount: 96
       SingboxPath: sing-box
       V2rayFormatResultPath: sub/proxies.txt
-      SingboxFormatResultPath: sub/singbox.txt
+      SingboxFormatResultPath: sub/singbox.json
       Sources: |
+        https://cdn.jsdelivr.net/gh/azadiazinjamigzare/SingBox@main/Sub
         https://api.yebekhe.link/shervin/
         https://clashnode.com/wp-content/uploads/2024/02/20240228.txt
         https://github.com/LonUp/NodeList/raw/main/V2RAY/Latest_base64.txt
@@ -162,9 +163,9 @@ jobs:
 
     - name: Install sing-box
       run: |
-        export VERSION="1.7.8"
+        export VERSION="1.8.14"
         export SINGBOX="sing-box_${VERSION}_linux_amd64v3.deb"
-        curl -sLO https://github.com/SagerNet/sing-box/releases/download/v${VERSION}/${SINGBOX}
+        curl -fsSLO https://github.com/SagerNet/sing-box/releases/download/v${VERSION}/${SINGBOX}
         sudo dpkg -i $SINGBOX
         sudo apt-get install -f
         
