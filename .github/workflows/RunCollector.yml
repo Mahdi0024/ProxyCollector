@@ -16,7 +16,7 @@ jobs:
     env:
       GithubApiToken: ${{ secrets.GITHUB_TOKEN }}
       GithubUser: ${{ github.repository_owner }}
-      GithubRepo: ${{ github.repository_name }}
+      GithubRepo: ProxyCollector
       Timeout: 5000
       MaxThreadCount: 96
       SingboxPath: sing-box
