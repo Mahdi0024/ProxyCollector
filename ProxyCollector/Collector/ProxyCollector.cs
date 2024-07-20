@@ -217,8 +217,8 @@ public class ProxyCollector
             20000,
             _config.MaxThreadCount,
             _config.Timeout,
-            "https://www.youtube.com/generate_204",
-            1024);
+            1024,
+            "https://www.youtube.com/generate_204");
 
         var workingResults = new ConcurrentBag<UrlTestResult>();
         await tester.ParallelTestAsync(profiles, new Progress<UrlTestResult>((result =>
