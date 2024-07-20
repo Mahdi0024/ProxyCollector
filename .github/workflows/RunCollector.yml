@@ -23,6 +23,7 @@ jobs:
       V2rayFormatResultPath: sub/proxies.txt
       SingboxFormatResultPath: sub/singbox.json
       Sources: |
+        https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/server.txt
         https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_iOS.txt
         https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/yudou66.txt
         https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/main/sublinks/mix.txt
@@ -30,6 +31,7 @@ jobs:
         https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/all4
         https://raw.githubusercontent.com/LonUp/NodeList/main/V2RAY/Latest_base64.txt
         https://raw.githubusercontent.com/Mahanfix/v2rayvpn/main/mahanfix
+        https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector_Py/main/sub/Mix/mix.txt
         https://raw.githubusercontent.com/Mohammadgb0078/IRV2ray/main/vless.txt
         https://raw.githubusercontent.com/Mohammadgb0078/IRV2ray/main/vmess.txt
         https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt
@@ -54,6 +56,8 @@ jobs:
         https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray.txt
         https://raw.githubusercontent.com/hsb4657/v2ray/main/lastest.txt
         https://raw.githubusercontent.com/imohammadkhalili/V2RAY/main/Mkhalili
+        https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/mix
+        https://raw.githubusercontent.com/itsyebekhe/HiN/main/Miner/normal
         https://raw.githubusercontent.com/kaoxindalao/v2raycheshi/main/v2raycheshi
         https://raw.githubusercontent.com/lflflf999/0516/main/BX-JD
         https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
@@ -65,6 +69,7 @@ jobs:
         https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
         https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed
         https://raw.githubusercontent.com/theGreatPeter/v2rayNodes/main/nodes.txt
+        https://raw.githubusercontent.com/v2clash/V2ray-Configs/main/All_Configs_Sub.txt
         https://raw.githubusercontent.com/vpei/free-node-1/main/o/proxies.txt
         https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt
         https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/output.yaml
@@ -73,6 +78,9 @@ jobs:
         https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/hy2
         https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/mix
         https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/tuic
+        https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/normal/mix
+        https://raw.githubusercontent.com/yebekhe/outline/main/subscription/normal
+
     steps:
     - uses: actions/checkout@v3
     - name: Setup .NET
