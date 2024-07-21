@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      GithubApiToken: ${{secrets.TOKEN}}
+      GithubApiToken: ${{ secrets.GH_API_TOKEN }}
       GithubUser: ${{ github.repository_owner }}
       GithubRepo: ProxyCollector
       Timeout: 5000
