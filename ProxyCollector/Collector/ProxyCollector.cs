@@ -55,7 +55,7 @@ public class ProxyCollector
                     {
                         var profile = x.Item.TestResult.Profile;
                         var countryInfo = x.Item.CountryInfo;
-                        profile.Name = $"{countryInfo.CountryFlag} {countryInfo.CountryCode} IPv{countryInfo.IpVersion} {x.Index + 1}";
+                        profile.Name = $"{countryInfo.CountryFlag} {countryInfo.CountryCode} {x.Index + 1}";
                         return (profile);
                     })
             )
