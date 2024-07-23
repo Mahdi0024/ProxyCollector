@@ -56,7 +56,7 @@ public class ProxyCollector
                     {
                         var profile = x.Item.TestResult.Profile;
                         var countryInfo = x.Item.CountryInfo;
-                        profile.Name = $"{countryInfo.CountryFlag} {countryInfo.CountryName} {x.Index + 1}";
+                        profile.Name = $"{countryInfo.CountryFlag} {countryInfo.CountryCode} {x.Index + 1}";
                         return (profile);
                     })
             )
@@ -218,10 +218,11 @@ public class ProxyCollector
     {
         var tester = new ParallelUrlTester(
             new SingBoxWrapper(_config.SingboxPath),
-    20000,
+            20000,
             _config.MaxThreadCount,
             _config.Timeout,
-            1024);
+            1024,
+            "https://www.gstatic.com/generate_204");
 
         var workingResults = new ConcurrentBag<UrlTestResult>();
         await tester.ParallelTestAsync(profiles, new Progress<UrlTestResult>((result =>
