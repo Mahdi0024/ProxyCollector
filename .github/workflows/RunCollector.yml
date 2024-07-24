@@ -38,7 +38,9 @@ jobs:
         https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt
         https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/row-url/all.txt
         https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+        https://raw.githubusercontent.com/Ptechgithub/configs/main/Gifts/peyman-sing-box-1.8.json
         https://raw.githubusercontent.com/Strongmiao168/v2ray/main/yuanheng
+        https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/output/converted.txt
         https://raw.githubusercontent.com/Surfboardv2ray/Subs/main/Raw
         https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed
         https://raw.githubusercontent.com/Vauth/node/main/Main
@@ -55,15 +57,18 @@ jobs:
         https://raw.githubusercontent.com/freefq/free/master/v2
         https://raw.githubusercontent.com/gitbigg/dy/main/jd
         https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray.txt
+        https://raw.githubusercontent.com/hkpc/V2ray-Configs/main/All_Configs_Sub.txt
         https://raw.githubusercontent.com/hsb4657/v2ray/main/lastest.txt
         https://raw.githubusercontent.com/imohammadkhalili/V2RAY/main/Mkhalili
         https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/mix
         https://raw.githubusercontent.com/itsyebekhe/HiN/main/Miner/normal
         https://raw.githubusercontent.com/kaoxindalao/v2raycheshi/main/v2raycheshi
+        https://raw.githubusercontent.com/lagzian/SS-Collector/main/mix_clash.yaml
         https://raw.githubusercontent.com/lflflf999/0516/main/BX-JD
         https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
         https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
         https://raw.githubusercontent.com/mheidari98/.proxy/main/all
+        https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/main/config.txt
         https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt
         https://raw.githubusercontent.com/renyige1314/CLASH/main/CLASH
         https://raw.githubusercontent.com/resasanian/Mirza/main/sub
@@ -76,6 +81,7 @@ jobs:
         https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/output.yaml
         https://raw.githubusercontent.com/yaney01/Yaney01/main/temporary
         https://raw.githubusercontent.com/yaney01/Yaney01/main/yaney_01
+        https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/singbox/mix.json
         https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/hy2
         https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/mix
         https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/tuic
