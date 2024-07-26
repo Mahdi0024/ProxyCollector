@@ -37,7 +37,7 @@ public class ProxyCollector
         var startTime = DateTime.Now;
         LogToConsole("Collector started.");
 
-        var profiles = (await CollectProfiesFromConfigSources()).Distinct().ToList();
+        var profiles = (await CollectProfilesFromConfigSources()).Distinct().ToList();
         LogToConsole($"Collected {profiles.Count} unique profiles.");
 
         LogToConsole($"Beginning UrlTest proccess.");
@@ -151,18 +151,19 @@ public class ProxyCollector
                         Outbound = "dns-out"
                     },
                 }
-            },
-            Experimental = new()
-            {
-                ClashApi = new()
-                {
-                    ExternalController = "127.0.0.1:9090",
-                    ExternalUi = "yacd",
-                    ExternalUiDownloadUrl = "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
-                    StoreSelected = true,
-                    CacheFile = "clash.db",
-                }
             }
+            //,
+            //Experimental = new()
+            //{
+            //    ClashApi = new()
+            //    {
+            //        ExternalController = "127.0.0.1:9090",
+            //        ExternalUi = "yacd",
+            //        ExternalUiDownloadUrl = "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+            //        StoreSelected = true,
+            //        CacheFile = "clash.db",
+            //    }
+            //}
         };
         var finalResult = config.ToJson();
 
@@ -233,22 +234,31 @@ public class ProxyCollector
         return workingResults;
     }
 
-    private async Task<IReadOnlyCollection<ProfileItem>> CollectProfiesFromConfigSources()
+    private async Task<IReadOnlyCollection<ProfileItem>> CollectProfilesFromConfigSources()
     {
-        using var client = new HttpClient();
+        using var client = new HttpClient()
+        {
+            Timeout = TimeSpan.FromSeconds(8)
+        };
 
         var profiles = new ConcurrentBag<ProfileItem>();
-        await Parallel.ForEachAsync(_config.Sources, async (source, ct) =>
+        await Parallel.ForEachAsync(_config.Sources,new ParallelOptions {MaxDegreeOfParallelism = _config.MaxThreadCount }, async (source, ct) =>
         {
             try
             {
+                var count = 0;
                 var subContents = await client.GetStringAsync(source);
                 foreach (var profile in TryParseSubContent(subContents))
                 {
                     profiles.Add(profile);
+                    count++;
                 }
+                LogToConsole($"Collected {count} proxies from {source}");
             }
-            catch { }
+            catch(Exception ex)
+            {
+                LogToConsole($"Failed to fetch {source}. error: {ex.Message}");
+            }
         });
 
         return profiles;
