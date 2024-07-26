@@ -23,5 +23,6 @@ Simply import the subscription links in your client of choice.
 - [Flik6/getNode](https://github.com/Flik6/getNode)
 - [sashalsk/V2Ray](https://github.com/sashalsk/V2Ray/)
 - [soroushmirzaei/telegram-configs-collector](https://github.com/soroushmirzaei/telegram-configs-collector)
+- And many more!
 ## Disclaimer
 I do not own any of the proxy servers provided by this project, this project simply collects and tests proxies from diffetrent subscription sources.
