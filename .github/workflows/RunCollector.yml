@@ -9,10 +9,10 @@ on:
     - cron: '0 12 * * *'
 
 jobs:
+
   run:
-
+    permissions: write-all
     runs-on: ubuntu-latest
-
     env:
       GithubApiToken: ${{ secrets.GITHUB_TOKEN }}
       GithubUser: ${{ github.repository_owner }}
