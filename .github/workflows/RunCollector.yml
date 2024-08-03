@@ -60,12 +60,20 @@ jobs:
         https://raw.githubusercontent.com/hkpc/V2ray-Configs/main/All_Configs_Sub.txt
         https://raw.githubusercontent.com/hsb4657/v2ray/main/lastest.txt
         https://raw.githubusercontent.com/imohammadkhalili/V2RAY/main/Mkhalili
-        https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/mix
+        https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/base64/mix
         https://raw.githubusercontent.com/itsyebekhe/HiN/main/Miner/normal
         https://raw.githubusercontent.com/kaoxindalao/v2raycheshi/main/v2raycheshi
         https://raw.githubusercontent.com/lagzian/SS-Collector/main/mix_clash.yaml
         https://raw.githubusercontent.com/lflflf999/0516/main/BX-JD
         https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
+        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_1.txt
+        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_2.txt
+        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_3.txt
+        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_4.txt
+        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_1.txt
+        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_2.txt
+        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_3.txt
+        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_4.txt
         https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
         https://raw.githubusercontent.com/mheidari98/.proxy/main/all
         https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/main/config.txt
@@ -81,7 +89,6 @@ jobs:
         https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/output.yaml
         https://raw.githubusercontent.com/yaney01/Yaney01/main/temporary
         https://raw.githubusercontent.com/yaney01/Yaney01/main/yaney_01
-        https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/singbox/mix.json
         https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/hy2
         https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/mix
         https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/tuic
