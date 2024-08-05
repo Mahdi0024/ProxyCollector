@@ -17,7 +17,7 @@ jobs:
       GithubApiToken: ${{ secrets.GITHUB_TOKEN }}
       GithubUser: ${{ github.repository_owner }}
       GithubRepo: ProxyCollector
-      Timeout: 5000
+      Timeout: 1000
       MaxThreadCount: 96
       SingboxPath: sing-box
       V2rayFormatResultPath: sub/proxies.txt
@@ -26,6 +26,8 @@ jobs:
         https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/server.txt
         https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_iOS.txt
         https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/yudou66.txt
+        https://raw.githubusercontent.com/GozargahAzadi/config/main/cdn
+        https://raw.githubusercontent.com/GozargahAzadi/config/main/worker
         https://raw.githubusercontent.com/IranianCypherpunks/SingBox/main/Sub
         https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/main/sublinks/mix.txt
         https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes
