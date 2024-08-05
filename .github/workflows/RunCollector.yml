@@ -17,7 +17,7 @@ jobs:
       GithubApiToken: ${{ secrets.GITHUB_TOKEN }}
       GithubUser: ${{ github.repository_owner }}
       GithubRepo: ProxyCollector
-      Timeout: 1000
+      Timeout: 5000
       MaxThreadCount: 96
       SingboxPath: sing-box
       V2rayFormatResultPath: sub/proxies.txt
