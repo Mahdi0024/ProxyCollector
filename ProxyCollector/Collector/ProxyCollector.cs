@@ -1,4 +1,4 @@
-﻿using Octokit;
+using Octokit;
 using ProxyCollector.Configuration;
 using ProxyCollector.Services;
 using SingBoxLib.Configuration;
@@ -107,7 +107,7 @@ public class ProxyCollector
             Outbounds = allOutboundTags,
             Interval = "10m",
             Tolerance = 200,
-            Url = "https://www.gstatic.com/generate_204",
+            Url = "https://www.youtube.com/generate_204",
         };
         outbounds.Add(urlTest);
 
@@ -223,7 +223,7 @@ public class ProxyCollector
             _config.MaxThreadCount,
             _config.Timeout,
             1024,
-            "https://www.gstatic.com/generate_204");
+            "https://www.youtube.com/generate_204");
 
         var workingResults = new ConcurrentBag<UrlTestResult>();
         await tester.ParallelTestAsync(profiles, new Progress<UrlTestResult>((result =>
