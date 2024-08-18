@@ -17,7 +17,7 @@ jobs:
       GithubApiToken: ${{ secrets.GITHUB_TOKEN }}
       GithubUser: ${{ github.repository_owner }}
       GithubRepo: ProxyCollector
-      Timeout: 1000
+      Timeout: 5000
       MaxThreadCount: 96
       SingboxPath: sing-box
       V2rayFormatResultPath: sub/proxies.txt
@@ -28,7 +28,6 @@ jobs:
         https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/yudou66.txt
         https://raw.githubusercontent.com/GozargahAzadi/config/main/cdn
         https://raw.githubusercontent.com/GozargahAzadi/config/main/worker
-        https://raw.githubusercontent.com/IranianCypherpunks/SingBox/main/Sub
         https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/main/sublinks/mix.txt
         https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes
         https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/all4
@@ -40,7 +39,6 @@ jobs:
         https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt
         https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/row-url/all.txt
         https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
-        https://raw.githubusercontent.com/Ptechgithub/configs/main/Gifts/peyman-sing-box-1.8.json
         https://raw.githubusercontent.com/Strongmiao168/v2ray/main/yuanheng
         https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/output/converted.txt
         https://raw.githubusercontent.com/Surfboardv2ray/Subs/main/Raw
@@ -49,7 +47,6 @@ jobs:
         https://raw.githubusercontent.com/Vauth/node/main/Master
         https://raw.githubusercontent.com/YasserDivaR/pr0xy/main/ShadowSocks2021.txt
         https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
-        https://raw.githubusercontent.com/azadiazinjamigzare/SingBox/main/Sub
         https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt
         https://raw.githubusercontent.com/chongdong1230/dxz/main/v2ray
         https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray%E8%AE%A2%E9%98%85
@@ -65,7 +62,6 @@ jobs:
         https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/base64/mix
         https://raw.githubusercontent.com/itsyebekhe/HiN/main/Miner/normal
         https://raw.githubusercontent.com/kaoxindalao/v2raycheshi/main/v2raycheshi
-        https://raw.githubusercontent.com/lagzian/SS-Collector/main/mix_clash.yaml
         https://raw.githubusercontent.com/lflflf999/0516/main/BX-JD
         https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
         https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_1.txt
@@ -80,17 +76,13 @@ jobs:
         https://raw.githubusercontent.com/mheidari98/.proxy/main/all
         https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/main/config.txt
         https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt
-        https://raw.githubusercontent.com/renyige1314/CLASH/main/CLASH
         https://raw.githubusercontent.com/resasanian/Mirza/main/sub
         https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
         https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed
         https://raw.githubusercontent.com/theGreatPeter/v2rayNodes/main/nodes.txt
         https://raw.githubusercontent.com/v2clash/V2ray-Configs/main/All_Configs_Sub.txt
-        https://raw.githubusercontent.com/vpei/free-node-1/main/o/proxies.txt
         https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt
-        https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/output.yaml
         https://raw.githubusercontent.com/yaney01/Yaney01/main/temporary
-        https://raw.githubusercontent.com/yaney01/Yaney01/main/yaney_01
         https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/hy2
         https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/mix
         https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/tuic
