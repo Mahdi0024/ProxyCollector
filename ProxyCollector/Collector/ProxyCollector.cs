@@ -105,9 +105,8 @@ public class ProxyCollector
         var urlTest = new UrlTestOutbound
         {
             Outbounds = allOutboundTags,
-            Interval = "10m",
-            Tolerance = 200,
-            Url = "https://www.youtube.com/generate_204",
+            Interval = "30m",
+            Url = "https://yts.mx/robots.txt",
         };
         outbounds.Add(urlTest);
 
@@ -223,7 +222,7 @@ public class ProxyCollector
             _config.MaxThreadCount,
             _config.Timeout,
             1024,
-            "https://www.youtube.com/generate_204");
+            "https://yts.mx/robots.txt");
 
         var workingResults = new ConcurrentBag<UrlTestResult>();
         await tester.ParallelTestAsync(profiles, new Progress<UrlTestResult>((result =>
