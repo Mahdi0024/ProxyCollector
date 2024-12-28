@@ -175,10 +175,17 @@ public class ProxyCollector
         var finalResult = new StringBuilder();
         foreach (var profile in profiles)
         {
-            var profileName = profile.Name;
-            profile.Name = HttpUtility.UrlPathEncode(profile.Name);
-            finalResult.AppendLine(profile.ToProfileUrl());
-            profile.Name = profileName;
+            if (profile.Type == ProfileType.Shadowsocks)
+            {
+                var profileName = profile.Name;
+                profile.Name = HttpUtility.UrlPathEncode(profile.Name);
+                finalResult.AppendLine(profile.ToProfileUrl());
+                profile.Name = profileName;
+            }
+            else
+            {
+                finalResult.AppendLine(profile.ToProfileUrl());
+            }
         }
         await CommitFileToGithub(finalResult.ToString(), _config.V2rayFormatResultPath);
     }
