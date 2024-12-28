@@ -23,82 +23,70 @@ jobs:
       V2rayFormatResultPath: sub/proxies.txt
       SingboxFormatResultPath: sub/singbox.json
       Sources: |
-        https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/server.txt
-        https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_iOS.txt
-        https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/yudou66.txt
-        https://raw.githubusercontent.com/GozargahAzadi/config/main/cdn
-        https://raw.githubusercontent.com/GozargahAzadi/config/main/worker
-        https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/main/sublinks/mix.txt
-        https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes
-        https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/all4
-        https://raw.githubusercontent.com/LonUp/NodeList/main/V2RAY/Latest_base64.txt
-        https://raw.githubusercontent.com/Mahanfix/v2rayvpn/main/mahanfix
-        https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector_Py/main/sub/Mix/mix.txt
-        https://raw.githubusercontent.com/Mohammadgb0078/IRV2ray/main/vless.txt
-        https://raw.githubusercontent.com/Mohammadgb0078/IRV2ray/main/vmess.txt
-        https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt
         https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/row-url/all.txt
-        https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
-        https://raw.githubusercontent.com/Strongmiao168/v2ray/main/yuanheng
-        https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/output/converted.txt
-        https://raw.githubusercontent.com/Surfboardv2ray/Subs/main/Raw
-        https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed
-        https://raw.githubusercontent.com/Vauth/node/main/Main
-        https://raw.githubusercontent.com/Vauth/node/main/Master
-        https://raw.githubusercontent.com/YasserDivaR/pr0xy/main/ShadowSocks2021.txt
-        https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
-        https://raw.githubusercontent.com/amin4139/share_file/main/Fastly_ConfigTestV2rayNG
-        https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt
-        https://raw.githubusercontent.com/chongdong1230/dxz/main/v2ray
-        https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray%E8%AE%A2%E9%98%85
-        https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray订阅
-        https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
-        https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/v2ray.txt
-        https://raw.githubusercontent.com/freefq/free/master/v2
-        https://raw.githubusercontent.com/gitbigg/dy/main/jd
-        https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray.txt
-        https://raw.githubusercontent.com/hkpc/V2ray-Configs/main/All_Configs_Sub.txt
+        https://raw.githubusercontent.com/Mohammadgb0078/IRV2ray/main/vless.txt
         https://raw.githubusercontent.com/hsb4657/v2ray/main/lastest.txt
-        https://raw.githubusercontent.com/imohammadkhalili/V2RAY/main/Mkhalili
-        https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/base64/mix
-        https://raw.githubusercontent.com/itsyebekhe/HiN/main/Miner/normal
-        https://raw.githubusercontent.com/itsyebekhe/vpnfail/main/subscription/plain
-        https://raw.githubusercontent.com/kaoxindalao/v2raycheshi/main/v2raycheshi
-        https://raw.githubusercontent.com/lflflf999/0516/main/BX-JD
-        https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
+        https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
+        https://raw.githubusercontent.com/Barabama/FreeNodes/master/nodes/yudou66.txt
         https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_1.txt
-        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_2.txt
+        https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/main/sublinks/mix.txt
+        https://raw.githubusercontent.com/Mahanfix/v2rayvpn/main/mahanfix
+        https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt
+        https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+        https://raw.githubusercontent.com/Surfboardv2ray/Subs/main/Raw
+        https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
+        https://raw.githubusercontent.com/imohammadkhalili/V2RAY/main/Mkhalili
+        https://raw.githubusercontent.com/LonUp/NodeList/main/V2RAY/Latest_base64.txt
+        https://raw.githubusercontent.com/YasserDivaR/pr0xy/main/ShadowSocks2021.txt
+        https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/v2ray.txt
+        https://raw.githubusercontent.com/gitbigg/dy/main/jd
+        https://raw.githubusercontent.com/Mohammadgb0078/IRV2ray/main/vmess.txt
+        https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
+        https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt
+        https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray.txt
+        https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray%E8%AE%A2%E9%98%85
+        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_4.txt
+        https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray订阅
+        https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/output/converted.txt
+        https://raw.githubusercontent.com/GozargahAzadi/config/main/worker
+        https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt
+        https://raw.githubusercontent.com/amin4139/share_file/main/Fastly_ConfigTestV2rayNG
+        https://raw.githubusercontent.com/freefq/free/master/v2
         https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_3.txt
         https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_4.txt
-        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_1.txt
-        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_2.txt
-        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_3.txt
-        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_4.txt
+        https://raw.githubusercontent.com/Strongmiao168/v2ray/main/yuanheng
+        https://raw.githubusercontent.com/lflflf999/0516/main/BX-JD
+        https://raw.githubusercontent.com/kaoxindalao/v2raycheshi/main/v2raycheshi
+        https://raw.githubusercontent.com/chongdong1230/dxz/main/v2ray
+        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_2.txt
         https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
-        https://raw.githubusercontent.com/mheidari98/.proxy/main/all
-        https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/main/config.txt
-        https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt
         https://raw.githubusercontent.com/resasanian/Mirza/main/sub
-        https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
-        https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt
-        https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed
+        https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/main/config.txt
+        https://raw.githubusercontent.com/GozargahAzadi/config/main/cdn
+        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_3.txt
         https://raw.githubusercontent.com/theGreatPeter/v2rayNodes/main/nodes.txt
-        https://raw.githubusercontent.com/v2clash/V2ray-Configs/main/All_Configs_Sub.txt
-        https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt
+        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_1.txt
+        https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt
         https://raw.githubusercontent.com/yaney01/Yaney01/main/temporary
-        https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/hy2
-        https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/mix
-        https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/tuic
-        https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/normal/mix
-        https://raw.githubusercontent.com/yebekhe/outline/main/subscription/normal
-
+        https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_2.txt
+        https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/server.txt
+        https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_iOS.txt
+        https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector_Py/main/sub/Mix/mix.txt
+        https://raw.githubusercontent.com/Vauth/node/main/Main
+        https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
+        https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt
+        https://raw.githubusercontent.com/hkpc/V2ray-Configs/main/All_Configs_Sub.txt
+        https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed
+        https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed
+        https://raw.githubusercontent.com/mheidari98/.proxy/main/all
+        https://raw.githubusercontent.com/v2clash/V2ray-Configs/main/All_Configs_Sub.txt
+        https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes
     steps:
     - uses: actions/checkout@v4
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
-
     - name: Install sing-box
       run: |
         export VERSION="1.9.3"
@@ -106,9 +94,7 @@ jobs:
         curl -fsSLO https://github.com/SagerNet/sing-box/releases/download/v${VERSION}/${SINGBOX}
         sudo dpkg -i $SINGBOX
         sudo apt-get install -f
-        
     - name: Restore dependencies
       run: dotnet restore
-
     - name: Run
       run: dotnet run --configuration Release --project ProxyCollector
