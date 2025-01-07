@@ -114,8 +114,6 @@ public class ProxyCollector
             {
                 new TunInbound
                 {
-                    Listen = "127.0.0.1",
-                    ListenPort = 2081,
                     InterfaceName = "tun0",
                     Address = ["172.19.0.1/30"],
                     Mtu = 1500,
