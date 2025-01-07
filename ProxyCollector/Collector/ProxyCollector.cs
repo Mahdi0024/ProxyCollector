@@ -12,7 +12,6 @@ using SingBoxLib.Runtime;
 using SingBoxLib.Runtime.Testing;
 using System.Collections.Concurrent;
 using System.Text;
-using System.Web;
 
 namespace ProxyCollector.Collector;
 
@@ -125,16 +124,12 @@ public class ProxyCollector
                     Stack = TunStacks.System,
                     EndpointIndependantNat = true,
                     StrictRoute = true,
-                    Sniff = true,
-                    SniffOverrideDestination = true,
                     DomainStrategy = DomainStrategies.PreferIPV4
                 },
                 new MixedInbound
                 {
                     Listen = "127.0.0.1",
                     ListenPort = 2080,
-                    Sniff = true,
-                    SniffOverrideDestination = true,
                     DomainStrategy = DomainStrategies.PreferIPV4
                 }
             },
@@ -152,18 +147,6 @@ public class ProxyCollector
                     },
                 }
             }
-            //,
-            //Experimental = new()
-            //{
-            //    ClashApi = new()
-            //    {
-            //        ExternalController = "127.0.0.1:9090",
-            //        ExternalUi = "yacd",
-            //        ExternalUiDownloadUrl = "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
-            //        StoreSelected = true,
-            //        CacheFile = "clash.db",
-            //    }
-            //}
         };
         var finalResult = config.ToJson();
 
@@ -175,17 +158,7 @@ public class ProxyCollector
         var finalResult = new StringBuilder();
         foreach (var profile in profiles)
         {
-            if (profile.Type == ProfileType.Shadowsocks)
-            {
-                var profileName = profile.Name;
-                profile.Name = HttpUtility.UrlPathEncode(profile.Name);
-                finalResult.AppendLine(profile.ToProfileUrl());
-                profile.Name = profileName;
-            }
-            else
-            {
-                finalResult.AppendLine(profile.ToProfileUrl());
-            }
+            finalResult.AppendLine(profile.ToProfileUrl());
         }
         await CommitFileToGithub(finalResult.ToString(), _config.V2rayFormatResultPath);
     }
@@ -249,7 +222,7 @@ public class ProxyCollector
         };
 
         var profiles = new ConcurrentBag<ProfileItem>();
-        await Parallel.ForEachAsync(_config.Sources,new ParallelOptions {MaxDegreeOfParallelism = _config.MaxThreadCount }, async (source, ct) =>
+        await Parallel.ForEachAsync(_config.Sources, new ParallelOptions { MaxDegreeOfParallelism = _config.MaxThreadCount }, async (source, ct) =>
         {
             try
             {
@@ -262,7 +235,7 @@ public class ProxyCollector
                 }
                 LogToConsole($"Collected {count} proxies from {source}");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 LogToConsole($"Failed to fetch {source}. error: {ex.Message}");
             }
