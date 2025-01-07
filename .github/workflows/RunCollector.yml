@@ -90,7 +90,7 @@ jobs:
     - name: Install sing-box
       run: |
         curl -fsSLO https://github.com/SagerNet/sing-box/releases/download/v1.10.6/sing-box_1.10.6_linux_amd64.deb
-        sudo dpkg -i $SINGBOX
+        sudo dpkg -i sing-box_1.10.6_linux_amd64.deb
         sudo apt-get install -f
     - name: Restore dependencies
       run: dotnet restore
