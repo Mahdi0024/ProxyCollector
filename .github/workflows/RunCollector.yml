@@ -86,7 +86,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 8.0.x
+        dotnet-version: 9.x
     - name: Install sing-box
       run: |
         export VERSION="1.9.3"
