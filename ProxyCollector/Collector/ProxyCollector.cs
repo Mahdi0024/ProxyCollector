@@ -5,8 +5,6 @@ using SingBoxLib.Configuration;
 using SingBoxLib.Configuration.Inbound;
 using SingBoxLib.Configuration.Outbound;
 using SingBoxLib.Configuration.Outbound.Abstract;
-using SingBoxLib.Configuration.Route;
-using SingBoxLib.Configuration.Shared;
 using SingBoxLib.Parsing;
 using SingBoxLib.Runtime;
 using SingBoxLib.Runtime.Testing;
@@ -99,7 +97,6 @@ public class ProxyCollector
         selector.Outbounds.AddRange(allOutboundTags);
 
         outbounds.Add(selector);
-        outbounds.Add(new DnsOutbound());
 
         var urlTest = new UrlTestOutbound
         {
@@ -117,20 +114,20 @@ public class ProxyCollector
             {
                 new TunInbound
                 {
+                    Listen = "127.0.0.1",
+                    ListenPort = 2081,
                     InterfaceName = "tun0",
-                    INet4Address = "172.19.0.1/30",
+                    Address = ["172.19.0.1/30"],
                     Mtu = 1500,
                     AutoRoute = true,
                     Stack = TunStacks.System,
-                    EndpointIndependantNat = true,
+                    EndpointIndependentNat = true,
                     StrictRoute = true,
-                    DomainStrategy = DomainStrategies.PreferIPV4
                 },
                 new MixedInbound
                 {
                     Listen = "127.0.0.1",
                     ListenPort = 2080,
-                    DomainStrategy = DomainStrategies.PreferIPV4
                 }
             },
             Route = new()
@@ -138,14 +135,6 @@ public class ProxyCollector
                 AutoDetectInterface = true,
                 OverrideAndroidVpn = true,
                 Final = "selector-out",
-                Rules = new()
-                {
-                    new RouteRule
-                    {
-                        Port = new() { 53},
-                        Outbound = "dns-out"
-                    },
-                }
             }
         };
         var finalResult = config.ToJson();
