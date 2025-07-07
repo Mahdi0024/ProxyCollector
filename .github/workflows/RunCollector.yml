@@ -82,6 +82,7 @@ jobs:
         https://raw.githubusercontent.com/v2clash/V2ray-Configs/main/All_Configs_Sub.txt
         https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes
         https://shadowmere.xyz/api/b64sub/
+        https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/all_configs.txt
     steps:
     - uses: actions/checkout@v4
     - name: Setup .NET
